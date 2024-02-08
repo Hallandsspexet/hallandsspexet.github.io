@@ -1,0 +1,2989 @@
+
+<!DOCTYPE html>
+<html lang="sv-se">
+<head>
+    <style>
+        * {
+            font-family: verdana, serif;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        .sp {
+            transition: all 0.4s ease 0s;
+            cursor: pointer;
+            width: 100%;
+            border: 1px solid #000000 !important;
+            text-align: left;
+            outline: none;
+            font-size: 14px;
+            border-radius: 10px;
+        }
+
+        .one.sp {
+            background-color: steelblue;
+            color: white;
+        }
+
+        .two.sp {
+            background-color: white;
+            color: black
+        }
+
+        .two.song {
+            background-color: green;
+            color: black;
+        }
+
+        .one.sb {
+            padding-top: 0;
+            background-color: steelblue;
+            color: white;
+        }
+
+        .two.sb {
+            padding-top: 0;
+            background-color: white;
+            color: black;
+        }
+
+        .one.ac {
+            background-color: green;
+            color: black;
+        }
+
+        .two.ac {
+            background-color: green;
+            color: black;
+        }
+
+        .sb {
+            transition: all 0.4s ease 0s;
+            cursor: pointer;
+            padding: 5px 0 0 0;
+            width: 100%;
+            border: 1px solid #000000 !important;
+            text-align: left;
+            outline: none;
+            font-size: 14px;
+            border-radius: 10px;
+        }
+
+        .content {
+            padding: 3px;
+            overflow: hidden;
+            background-color: steelblue;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            border-bottom-left-radius: 9px;
+            border-bottom-right-radius: 9px;
+        }
+
+        .song {
+            color: black;
+            padding-left: 10px;
+            padding-top: 10px;
+            background-color: white;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            border-bottom-left-radius: 9px;
+            border-bottom-right-radius: 9px;
+        }
+
+        .sticky + .content {
+            padding-top: 0;
+        }
+
+        h2, h6 {
+            color: white;
+            font-weight: bold;
+        }
+
+        a {
+            color: #adb0e6;
+        }
+
+        .green-highlight {
+            background-color: green;
+            color: white;
+        }
+
+        .red-highlight {
+            background-color: red;
+            color: white;
+        }
+
+        .orange-highlight {
+            background-color: orange;
+            color: black;
+        }
+
+        .yellow-highlight {
+            background-color: yellow;
+            color: black;
+        }
+
+        .blue-highlight {
+            background-color: blue;
+            color: white;
+        }
+
+        .purple-highlight {
+            background-color: purple;
+            color: white;
+        }
+
+
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Hallandsspexets S&aringngbok</title>
+</head>
+
+<body class="bg-white">
+
+    <div class="m-3">
+        <img src="logga_spexet.png" alt="Hallandsspexet" width="300">
+        <p class="text-dark fw-bold fs-3" id="pageTitle">Hallandsspexets S&aringngbok</p>
+    </div>
+
+    <div class="main">
+
+        <details class="sp one">
+            <summary style="list-style: none; padding: 5px">Klassiker</summary>
+
+            <div class="content">
+<!--                <div class="sb"
+                     style="background-color:#1a1a1a;color:white;text-align:left;font-weight:bold;font-size:20;border-left:2px-solid-red;padding:5px;">Klassiker</div> -->
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">1. <b> Spritbolaget</b></summary>
+                    <div class="song">
+                        <b> Spritbolaget</b>
+                        <br>Melodi: Emils snickarvisa
+                        <br><br><i>Från Sångarstriden 1989</i>
+                        <br><br>Till spritbolaget ränner jag
+                        <br>Och bankar på dess port.
+                        <br>Jag vill ha nåt’ som bränner bra
+                        <br>Och gör mig sketfull fort.
+                        <br>Expediten sade godda’:
+                        <br>Hur gammal kan min herre va?
+                        <br>Har du nåt leg ditt fula drägg?
+                        <br>Kom hit igen när du fått skägg.
+                        <br><br>Nej, detta var ju inte bra,
+                        <br>Jag ska bli full ikväll.
+                        <br>Då plötsligt en idé jag fick,
+                        <br>De har ju sprit på Shell.
+                        <br>Många flaskor stod där på rad.
+                        <br>Så nu kan jag bli full och glad.
+                        <br>Den röda drycken åkte ner.
+                        <br>Nu kan jag inte se nåt mer.
+                        <br><br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">2. <b> Siffervisan</b></summary>
+                    <div class="song">
+                        <b> Siffervisan</b>
+                        <br>Melodi: Ritsch, ratsch
+                        <br>
+                        <br>1, 2, 75, 6, 7, 75, 6, 7, 75, 6, 7
+                        <br>1, 2, 75, 6, 7, 75, 6, 7, 73
+                        <br>107, 103, 102
+                        <br>107, 6, 19, 27
+                        <br>17, 18, 16, 15
+                        <br>13, 19, 14, 17
+                        <br>19, 16, 18, 11
+                        <br>8, 47 !
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">3. <b> Feta fransyskor</b></summary>
+                    <div class="song">
+                        <b> Feta fransyskor</b>
+                        <br>Melodi: Militärmarsch no.1 av Schubert
+                        <br><br><i>Från Sångarstriden 1985</i>
+                        <br><br>Feta fransyskor som svettas om f&oumltterna
+                        <br>de trampar druvor som sedan skall j&aumlsas till vin.
+                        <br>Transpirationen viktig &eacute
+                        <br>ty den ger fin bouquet,
+                        <br>v&aringrtor och svampar f&oumlljer med,
+                        <br>men vad g&oumlr v&auml det?
+                        <br><br>F&oumlr...
+                        <br>Vi vill ha vin, vill ha vin, vill ha mera vin
+                        <br>&aumlven om f&oumlljderna bli att vi m&aring lida pin.
+                        <br>Flaskan och glaset g&aringr i sin.
+                        <br>Hit med vin, mera vin.
+                        <br>Tror ni att vi &aumlr fyllesvin?
+                        <br>JA! FAST STÖRRE!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">4. <b> Mera brännvin</b></summary>
+                    <div class="song">
+                        <b> Mera brännvin</b>
+                        <br>Melodi: Internationalen
+                        <br>
+                        <br>Mera brännvin i glasen
+                        <br>Mera glas på vårt bord
+                        <br>Mera på bord på kalasen
+                        <br>Mer kalas på vår jord
+                        <br><br>Mera jordar med måne
+                        <br>Mera månar i mars
+                        <br>Mera marscher till Skåne
+                        <br>Mera Skåne Gud bevar’s, bevar’s, bevar’s
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">5. <b> Så lunka vi så småningom</b></summary>
+                    <div class="song">
+                        <b> Så lunka vi så småningom</b>
+                        <br>Melodi: Fredmans sång no. 21 av Bellman
+                        <br>
+                        <br>Så lunka vi så småningom
+                        <br>från Bacchi buller och tumult,
+                        <br>när döden ropar; Granne kom,
+                        <br>ditt timglas är nu fullt.
+                        <br>Du gubbe fäll din krycka ner,
+                        <br>och du, du yngling, lyd min lag,
+                        <br>den skönsta nymf som mot dig ler
+                        <br>inunder armen tag.
+                        <br>
+                        <br>Tycker du att graven är för djup,
+                        <br>nå välan, så tag dig då en sup,
+                        <br>tag dig sen dito en, dito två, dito tre,
+                        <br>så dör du nöjdare.
+                        <br>
+                        <br>Säg är du nöjd, min granne säg,
+                        <br>så prisa världen nu till slut;
+                        <br>om vi ha en och samma väg,
+                        <br>så följoms åt; drick ut.
+                        <br>Men först med vinet rött och vitt
+                        <br>för vår värdinna bugom oss,
+                        <br>och halkom sen i graven fritt,
+                        <br>vid aftonstjärnans bloss.
+                        <br>
+                        <br>Tycker du att graven är för djup,
+                        <br>nå välan, så tag dig då en sup,
+                        <br>tag dig sen dito en, dito två, dito tre,
+                        <br>så dör du nöjdare.
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">6. <b> Bordeaux, Bordeaux</b></summary>
+                    <div class="song">
+                        <b> Bordeaux, Bordeaux</b>
+                        <br>Melodi: I sommarens soliga dagar
+                        <br><br>Jag minns &aumln idag hur min fader
+                        <br>kom hem ifr&aringn staden s&aring glader
+                        <br>och rada' upp flaskor i rader
+                        <br>och sade n&oumljd som s&aring
+                        <br>"Bordeaux, Bordeaux!"
+                        <br>Han drack ett glas, kom i extas,
+                        <br>och sedan blev det stort kalas.
+                        <br>Och vi små glin, ja vi drack vin
+                        <br>som första klassens fyllesvin.
+                        <br>Och vi dansade runt där på borden
+                        <br>och skrek så vi blev blå:
+                        <br>"Bordeaux, Bordeaux!”
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">7. <b> Finland är Finland</b></summary>
+                    <div class="song">
+                        <b> Finland är Finland</b>
+                        <br>Melodi: Högt över havet
+                        <br>
+                        <br>Finland är Finland och Finland är bra!
+                        <br>Vi har en pipeline med sprit från Moskva!
+                        <br>Bada bastu och piska med ris -
+                        <br>Hacka hål i is!
+                        <br>
+                        <br>Finland är Finland och Finland är bra!
+                        <br>Vi har en pipeline med sprit från Moskva!
+                        <br>Bada bastu och piska med ris -
+                        <br>Hacka hål i is!
+                        <br>
+                        <br>Danmark är Danmark och Danmark är bra!
+                        <br>De har en jungfru som sitter så bar.
+                        <br>Röde pölsor med Tuborg och lök.
+                        <br>Vi köpte billigt krök!
+                        <br>
+                        <br>Sverige är Sverige och Sverige är bra!
+                        <br>Vi har en ubåt som tillhör Moskva.
+                        <br>Ute i skärgår’n vi simmar omkring.
+                        <br>Hittar ingenting!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">8. <b> Måsen</b></summary>
+                    <div class="song">
+                        <b> Måsen</b>
+                        <br>Melodi: När månen vandrar
+                        <br>
+                        <br>Det satt en mås på en klyvarbom
+                        <br>och tom i krävan var kräket.
+                        <br>Och tungan lådde mot skepparns gom,
+                        <br>där han satt uti bleket.
+                        <br>“Jag vill ha sill” hördes måsen rope
+                        <br>och skepparn svarte: “Jag vill ha OP
+                        <br>om blott jag får, om blott jag får”.
+                        <br>
+                        <br>Nu lyfter måsen från klyvarbom
+                        <br>och vinden spelar i tågen.
+                        <br>OP'n svalkat har skepparn’s gom,
+                        <br>jag önskar blott att jag såg en.
+                        <br>Så nöjd och lycklig den arme saten,
+                        <br>han sätter storsegel den krabaten.
+                        <br>till sjöss han far och halvan tar.
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">9. <b> Jäss te daj</b></summary>
+                    <div class="song">
+                        <b> Jäss te daj</b>
+                        <br>Melodi: Yesterday
+                        <br>
+                        <br>Gäss te’ dej,
+                        <br>Jag vill giva nå’ra gäss te’ dej
+                        <br>om du bara säjer yes te’ mej
+                        <br>så ger jag nå’ra gäss te’ dej.
+                        <br>
+                        <br>Ester, dej -
+                        <br>gillar jag om blott du fäster dej
+                        <br>vid en så’n som vill ge gäss te’ dej
+                        <br>så kommer jag med präst till dej.
+                        <br>
+                        <br>Pärlor får du ej av en fattiglapp som mej.
+                        <br>Ändå vill jag ge som en ringa gäst te’ dej
+                        <br>
+                        <br>Gäss te’ dej
+                        <br>de ‘ä’ min delikatess te’ dej.
+                        <br>Den som kunde ge en häst te dej,
+                        <br>men jag har bara gäss te’ dej
+                        <br>Jag har bara gäss te’ dej.
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">10. <b> Jag ska festa</b></summary>
+                    <div class="song">
+                        <b> Jag ska festa</b>
+                        <br>Melodi: Bamse
+                        <br>
+                        <br>Jag ska festa ta det lugnt med spriten,
+                        <br>ha det roligt utan att va’ full.
+                        <br>Inte krypa runt bland festeliten,
+                        <br>ta det sansat för min egen skull.
+                        <br>
+                        <br>Först en öl i torra strupen,
+                        <br>efter det så kommer supen
+                        <br>i med vinet, ner med punschen,
+                        <br>sist en groggbuffé.
+                        <br>
+                        <br>Jag är skitfull, däckar först av alla,
+                        <br>missar phesten men vad gör väl det.
+                        <br>Blandar hejdlöst öl och gammal filmjölk.
+                        <br>kastar upp på bordsdamen brevé.
+                        <br>
+                        <br>Först en öl i torra strupen,
+                        <br>efter det så kommer supen
+                        <br>i med vinet, ner med punschen,
+                        <br>sist en groggbuffé.
+                        <br>
+                        <br>Spyan rinner nerför ylleslipsen,
+                        <br>ravioli torkar i mitt hår
+                        <br>Vem har lagt mig under matsalsbordet?
+                        <br>Vems är gaffeln i mitt högra lår?
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">11. <b> Jag har aldrig varit på snusen</b></summary>
+                    <div class="song">
+                        <b> Jag har aldrig varit på snusen</b>
+                        <br>Melodi: O, Hur saligt att få vandra
+                        <br>
+                        <br>Jag har aldrig va’tt på snusen
+                        <br>aldrig rökat en cigarr, halleluja!
+                        <br>Mina dygder äro tusen,
+                        <br>inga syndiga laster jag har.
+                        <br>
+                        <br>Jag har aldrig sett nåt naket,
+                        <br>inte ens ett litet nyfött barn
+                        <br>Mina blickar går mot taket
+                        <br>därmed undgår jag frestarens garn.
+                        <br>
+                        <br>Halleluja, Halleluja...
+                        <br>
+                        <br>Bacchus spelar på gitarren,
+                        <br>Satan spelar på sitt handklaver.
+                        <br>Alla djävlar dansar tango,
+                        <br>säg vad kan man väl önska sig mer?
+                        <br>JO!
+                        <br>Att alla bäckar vore brännvin,
+                        <br>stadsparksdammen full av bayerskt öl,
+                        <br>konjak i varenda rännsten,
+                        <br>och <i>punsch</i> i vartendaste pöl.
+                        <br>
+                        <br>Halleluja, Halleluja...
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">12. <b> Fjorton glada laxar</b></summary>
+                    <div class="song">
+                        <b> Fjorton glada laxar</b>
+                        <br>Melodi: Väva vadmal
+                        <br><br><i>Sjunges fördelaktigen på halmstadsdialekt</i>
+                        <br>
+                        <br>Fjorton glada laxar
+                        <br>kröp fram liksom taxar.
+                        <br>Dom hade druckit av sista glaset,
+                        <br>som fanns att få på kalaset
+                        <br>och på sin runda genom natten,
+                        <br>var dom inte ute efter vatten.
+                        <br>- Vad tjänar att sporta?
+                        <br>- Taxben är för korta!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">13. <b> Röda havet</b></summary>
+                    <div class="song">
+                        <b> Röda havet</b>
+                        <br>Melodi: Skrattvisa ur Orfeus i underjorden
+                        <br>
+                        <br>Vi gingo ned till Röda havet.
+                        <br>Vi lågo i där minst en kvart.
+                        <br>Men inte blev vi röda av 'et,
+                        <br>men Röda havet det blev sva-a-art.
+                        <br>
+                        <br>||: Men utav akvavit,
+                        <br>människan till kropp och själ blir
+                        <br>oskuldsfull och vit. :||
+                        <br>
+                        <br>Vi gingo ned till Lomma bukten
+                        <br>vi lågo i där minst en kvart.
+                        <br>Men inte blev vi av med lukten,
+                        <br>men Lomma bukten den blev sva-a-art.
+                        <br>
+                        <br>||: Men utav akvavit... :||
+                        <br>
+                        <br>Vi gingo ner till stadsparksdammen.
+                        <br>Vi lågo i där minst en kvart.
+                        <br>Men inte blev vi av med skammen.
+                        <br>Men stadsparksdammen den blev sva-a-art.
+                        <br>
+                        <br>||: Men utav akvavit... :||
+                        <br>
+                        <br>Vi gingo ner till systembolaget.
+                        <br>Vi stod i kö där minst en kvart.
+                        <br>Men inte blev vi fulla av ‘et.
+                        <br>Men systembolaget det gick baa-a-ack.
+                        <br>
+                        <br>||: Men utav akvavit... :||
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">14. <b> Halmstadvisan</b></summary>
+                    <div class="song">
+                        <b> Halmstadvisan</b>
+                        <br>Melodi: Gubben Noak
+                        <br><br><i>Sjunges på halmstadsdialekt</i>
+                        <br>
+                        <br>Skörda gurkor, skörda gurkor, lägga i en korg
+                        <br>Skörda gurkor, skörda gurkor, lägga i en korg
+                        <br>Ta korgen till torget
+                        <br>sälj dom över bordet
+                        <br>Skörda gurkor, skörda gurkor, lägga i en korg
+                        <br>
+                        <br>Koka korvar, koka korvar, lägga i en burk
+                        <br>Koka korvar, koka korvar, lägga i en burk
+                        <br>Gör sen vad du borde
+                        <br>sälj dom dyrt till Norge
+                        <br>Koka korvar, koka korvar, lägga i en burk
+                        <br>
+                        <br>Virka skjortor, virka skjortor, gör det jäkligt fort
+                        <br>Virka skjortor, virka skjortor, gör det jäkligt fort
+                        <br>Se det som en sport
+                        <br>så går det som smort
+                        <br>Virka skjortor, virka skjortor, gör det jäkligt fort
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">15. <b> Ismaskinen</b></summary>
+                    <div class="song">
+                        <b> Ismaskinen</b>
+                        <br>Melodi: Nu kommer julen
+                        <br><br><i>Från Karnevalen 2002</i>
+                        <br>
+                        <br>L&aumlpparna blir lila n&aumlr man dricker vin,
+                        <br>och om man har huvet i en ismaskin!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <button class="sb"
+                        style="background-color:gold;color:white;text-align:left;font-weight:bold;"></button>
+
+            </div>
+
+        </details>
+
+        <details class="sp two">
+            <summary style="list-style: none; padding: 5px">Hallandsspexets egna</summary>
+
+            <div class="content">
+<!--                <div class="sb"
+                     style="background-color:#1a1a1a;color:white;text-align:left;font-weight:bold;font-size:20;border-left:2px-solid-red;padding:5px;"></div> -->
+
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">1. <b> Spexarvisan</b></summary>
+                    <div class="song">
+                        <b> Spexarvisan</b>
+                        <br>Melodi: Luffarvisan
+                        <br>
+                        <br>Se på spexar’n som går där på vägen
+                        <br>se på spexar’n som alla har glömt
+                        <br>Så snart som det blir höst
+                        <br>finner han sin tröst
+                        <br>i ett Halländskt äventyr.
+                        <br>
+                        <br>Han ser vänner vart än han sig sträcker.
+                        <br>Han har Hallands och längtan i sitt blod.
+                        <br>Och när ridån går opp
+                        <br>då är allt på topp
+                        <br>det är det som ger honom hans mod.
+                        <br>
+                        <br>Han vill skratta och sjunga,
+                        <br>skratta och sjunga.
+                        <br>Och han ser sig om när nån’ ropar kom
+                        <br>”vi ska basta natten lång”!
+                        <br>Han vill skratta och sjunga,
+                        <br>skratta och sjunga
+                        <br>Och han ser sig om när nån’ ropar kom
+                        <br>”vi ska basta-a natten lång”!
+                        <br>
+                        <br>Se på spexar’n som ligger längs vägen
+                        <br>se på spexar’n som ligger och spyr
+                        <br>när han nyktrat till
+                        <br>vet han vad han vill
+                        <br>ut på Halländskt äventyr.
+                        <br>
+                        <br>Han ser dubbelt vart än han sig sträcker.
+                        <br>Han har Hallands och OP i sitt blod.
+                        <br>Genom ur och skur
+                        <br>tar han samma kur
+                        <br>det är den som ger honom hans mod.
+                        <br>
+                        <br>Han vill skratta och sjunga,
+                        <br>skratta och sjunga.
+                        <br>Och han ser sig om när nån’ ropar kom
+                        <br>”vi ska basta natten lång”!
+                        <br>Han vill skratta och sjunga,
+                        <br>skratta och sjunga.
+                        <br>Och han ser sig om när nån’ ropar kom
+                        <br>”vi ska basta-a natten lång”!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">2. <b> Du får inte ställa Hallands dörr på glänt</b></summary>
+                    <div class="song">
+                        <b> Du får inte ställa Hallands dörr på glänt</b>
+                        <br>Melodi: Kalle Svensson
+                        <br>
+                        <br>Du får inte ställa hallands dörr på glänt
+                        <br>Du får inte ställa hallands dörr på glänt
+                        <br>Om du öppnar den för andra,
+                        <br>Kommer råttan att in vandra
+                        <br>Och då får vi böta flera tusen spänn
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">3. <b> På Hallands</b></summary>
+                    <div class="song">
+                        <b> På Hallands</b>
+                        <br>Melodi: Min hatt den har tre kanter
+                        <br>
+                        <br>På Hallands dricks det Hallands,
+                        <br>På Hallands dricks det sprit.
+                        <br>Och finns det ingen Hallands –
+                        <br>blir hela spexet skit!
+                        <br>Det fanns ett Hallands slottspex,
+                        <br>På spexet dracks det Slotts.
+                        <br>Procenten den var blott sex –
+                        <br>så nu så dricks det shots!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">4. <b> Spexperioden</b></summary>
+                    <div class="song">
+                        <b> Spexperioden</b>
+                        <br>Melodi: Mors lilla Olle
+                        <br>
+                        <br>Sjung om studenternas lyckliga dag,
+                        <br>(att) gå med i Hallands ditt klokaste drag.
+                        <br>(Du) får jobba gratis det kostar ingenting,
+                        <br>i skattmästar’ns kassa där säger det kaching!
+                        <br>
+                        <br>Ute i slabbet till fest och dans,
+                        <br>(på) golvet hälls spriten så fort man får chans.
+                        <br>Söndagen kommer det finns ingen kvast,
+                        <br>står du för länge så klistrar du fast!
+                        <br>
+                        <br>Var är vår scenkant, teaterröst,
+                        <br>förmannen skriker, det finns ingen tröst!
+                        <br>Bandet är borta, men fikan är här,
+                        <br>styrelsen stressar - är mest till besvär.
+                        <br>
+                        <br>Helvetesveckan, en ljuvlig pers,
+                        <br>sexet har lagat nåt de kallar färs.
+                        <br>Dräkterna spricker, vår regissör svär,
+                        <br>ljudet är trasigt,
+                        <br>
+                        <br>NU ÄR DET PREMIÄR!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">5. <b> Torsdagsbastu</b></summary>
+                    <div class="song">
+                        <b> Torsdagsbastu</b>
+                        <br>Melodi: En sockerbagare
+                        <br>
+                        <br>En frusen spexare, det bor i staden,
+                        <br>Går runt och huttrar mest hela dagen.
+                        <br>En gång i veckan finns chans till kur
+                        <br>(Ja) torsdagsbastu ger hög temp’ratur!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">6. <b> Sjung om spexarnas lyckliga dag</b></summary>
+                    <div class="song">
+                        <b> Sjung om spexarnas lyckliga dag</b>
+                        <br>Melodi: Studentsången
+                        <br>
+                        <br>Sjungom spexarnas lyckliga dag,
+                        <br>Att spexa får oss att ta glädjeskutt
+                        <br>Gå med i Hallands, ditt bästa drag,
+                        <br>Orkestern spelar en trudelutt
+                        <br>
+                        <br>Snart tänds scenen upp, Publik väntar
+                        <br>stämningsfullt,
+                        <br>Skådis gör sig klar, teaterröst, scenkant
+                        <br>Dekor, sy, vieri, smink och dans
+                        <br>Tillsammans är vi ett Hallandsspex
+                        <br>Tillsammans är vi vårt Hallandsspex
+                        <br>Hurra!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <button class="sb"
+                        style="background-color:gold;color:white;text-align:left;font-weight:bold;"></button>
+
+            </div>
+
+        </details>
+
+        <details class="sp one">
+            <summary style="list-style: none; padding: 5px">Finsittning</summary>
+
+            <div class="content">
+<!--                <div class="sb"
+                     style="background-color:#1a1a1a;color:white;text-align:left;font-weight:bold;font-size:20;border-left:2px-solid-red;padding:5px;"></div> -->
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">1. <b> O gamla klang och jubeltid</b></summary>
+                    <div class="song">
+                        <b> O gamla klang och jubeltid</b>
+                        <br>Melodi: O, alte Burschenherrlichkeit
+                        <br><br><i>Vi bankar endast i bordet på <b>"k ä r n a n"</b></i>
+                        <br>
+                        <br>O, gamla klang- och jubeltid,
+                        <br>ditt minne skall förbliva
+                        <br>och än åt livets bistra strid
+                        <br>ett rosigt skimmer giva!
+                        <br>Snart tystnar allt vårt yra skämt,
+                        <br>vår sång blir stum, vårt glam förstämt;
+                        <br>O, jerum, jerum, jerum.
+                        <br>O, quae mutatio rerum!
+                        <br>
+                        <br>Var äro de, som kunde allt,
+                        <br>blott ej sin ära svika,
+                        <br>som voro män av äkta halt
+                        <br>och världens herrar lika?
+                        <br>De drogo bort från vin och sång
+                        <br>till vardagslivets tråk och tvång;
+                        <br>O, jerum, jerum, jerum.
+                        <br>O, quae mutatio rerum!
+                        <br>
+                        <br><i>
+                            <b>Filosofer:</b> Den ene vetenskap och vett
+                            <br>&nbsp;&nbsp;in i scholares mänger,
+                            <br><b>Jurister:</b> den andre i sitt anlets svett,
+                            <br>&nbsp;&nbsp;på paragrafer vränger,
+                            <br><b>Teologer:</b> en plåstrar själen, som är skral,
+                            <br><b>Medicinare:</b> en lappar hop dess trasiga fodral;
+                            <br>O, jerum, jerum, jerum.
+                            <br>O, quae mutatio rerum!
+                        </i>
+                        <br>
+                        <br>Men hjärtat i en sann student
+                        <br>kan ingen tid förfrysa,
+                        <br>den glädjeeld, som där han tänt,
+                        <br>hans hela liv skall lysa.
+                        <br>Det gamla skalet brustit har,
+                        <br>men <i><b>k ä r n a n</b></i> finnes frisk dock kvar,
+                        <br>och vad han än må mista,
+                        <br>den skall dock aldrig brista!
+                        <br>
+                        <br>Så sluten, bröder, fast vår krets
+                        <br>till glädjens värn och ära!
+                        <br>Trots allt vi tryggt och väl tillfreds
+                        <br>vår vänskap trohet svära.
+                        <br>Lyft bägarn högt, och klinga, vän!
+                        <br>De gamla gudar leva än
+                        <br>bland skålar och pokaler,
+                        <br>bland skålar och pokaler!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">2. <b> Punschen kommer (kall)</b></summary>
+                    <div class="song">
+                        <b> Punschen kommer (kall)</b>
+                        <br>Melodi: <a href="https://www.youtube.com/watch?v=onrHytlZ9CU" target="_blank"> Valsen ”Läppar tiger” ur Glada änkan </a>
+                        <br>
+                        <br>Punschen kommer,
+                        <br>punschen kommer,
+                        <br>ljuv och sval!
+                        <br>Glasen imma
+                        <br>röster stimma
+                        <br>i vår sal!
+                        <br>Skål för glada minnen,
+                        <br>skål för varje vår!
+                        <br>Inga sorger finnes mer,
+                        <br>när punsch vi får!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">3. <b> Punschen kommer (varm)</b></summary>
+                    <div class="song">
+                        <b> Punschen kommer (varm)</b>
+                        <br>Melodi: <a href="https://www.youtube.com/watch?v=onrHytlZ9CU" target="_blank"> Valsen ”Läppar tiger” ur Glada änkan </a>
+                        <br>
+                        <br>Punschen kommer,
+                        <br>punschen kommer,
+                        <br>god och varm!
+                        <br>Vettet svinner,
+                        <br>droppen rinner,
+                        <br>ner i tarm!
+                        <br>Skål för glada minnen,
+                        <br>dem vi snart ej ha!
+                        <br>Då ett par glas simmig punsch,
+                        <br>vi hunnit ta!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <button class="sb"
+                        style="background-color:gold;color:white;text-align:left;font-weight:bold;"></button>
+
+            </div>
+
+        </details>
+
+        <details class="sp two">
+            <summary style="list-style: none; padding: 5px">Lyckliga i alla sina dagar - Omtaget (2020, 2021)</summary>
+
+            <div class="content">
+                <!--    <div class="sb"
+            style="background-color:#1a1a1a;color:white;text-align:left;font-weight:bold;font-size:20;border-left:2px-solid-red;padding:5px;"></div> -->
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">1. <b> Ernst</b></summary>
+                    <div class="song">
+                        <b> Ernst</b>
+                        <br>Melodi: Las Vegas
+                        <br>
+                        <br>Jag heter Ernst, ni alla känner mig
+                        <br>Hemmafixande det är min grej.
+                        <br>Sätt er bekvämt (för) nu är jag här
+                        <br>Baby se och lär
+                        <br>
+                        <br>Steigkirscher på er Tv-kanal
+                        <br>Alla mammors hjärtan jag stal
+                        <br>Det är svårt att tro att jag är här
+                        <br>Kejserliga kläder jag bär
+                        <br>
+                        <br>Hylla mig, på ödmjukt sätt
+                        <br>Åhh nu blir det så himla hett
+                        <br>Värmeljus,
+                        <br>Jag värmer upp ditt hus
+                        <br>
+                        <br>Ernst Steigkirscher, eran Mysfarbror
+                        <br>Är avgudad av din mor o mormor
+                        <br>Ernst Steigkirscher, (ohh)
+                        <br>Renovera Torp
+                        <br>Ernst Steigkirscher, Den ni vill ha
+                        <br>Äppelmos lagar jag bra
+                        <br>Ernst Steigkirscher, (ohh)
+                        <br>Stoppa julkalkon
+                        <br>Ja baby jag vet hur
+                        <br>
+                        <br>En man som sjunger på prinsesskonvent
+                        <br>Kunde inte något bättre ha hänt
+                        <br>Jag jobbar över 150%
+                        <br>Alla stålar jag bränt
+                        <br>
+                        <br>Prinsessprovet nu kör vi på
+                        <br>Hur mycket lön kan jag få
+                        <br>Klockan slår
+                        <br>Säljer allt mitt hår
+                        <br>
+                        <br>Är prinsessa, tro på det
+                        <br>på fast anställning har jag gått bet
+                        <br>SjöljungfruUuuu, Ohhh
+                        <br>Kompispris får du
+                        <br>
+                        <br>Ja Ernst
+                        <br>Prinsesskonvent
+                        <br>
+                        <br>Ernst Steigkirscher, eran Mysfarbror
+                        <br>Är avgudad av din mor o mormor (ohh)
+                        <br>Köp min ljusstake
+                        <br>Ernst Steigkirscher, Den ni vill ha
+                        <br>Äppelmos lagar jag bra
+                        <br>Ernst Steigkirscher, (ohh)
+                        <br>Stoppa kreatur
+                        <br>Ja baby jag vet hur
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">2. <b> Prinsessor kan</b></summary>
+                    <div class="song">
+                        <b> Prinsessor kan</b>
+                        <br>Melodi: Wannabe
+                        <br>
+                        <br>Jag ska förklara för er en sak, en jättenkel sak,
+                        <br>Jo vi prinsessor kan, allting alla prinsar kan
+                        <br>Berätta nu vår sak, vår jättenkla sak
+                        <br>Jo vi prinsessor kan, allting alla prinsar kan
+                        <br>Prinsessor (kan), Prinsessor (kan), Prinsessor (kan), Prinsessor (kan)
+                        <br>Prinsessor är ej, begränsade, att tänka med vår:
+                        <br>STOPP
+                        <br>
+                        <br>Vi får alltid höra, “Vi räddar dig”
+                        <br>Som att det är nått självklart, för att man är tjej
+                        <br>“Ni är så svaga, lever ett skört liv”
+                        <br>Om någon säger det, får de se min kniv
+                        <br>
+                        <br>Vi förklarar för er en sak, en jättenkel sak,
+                        <br>Jo vi prinsessor kan, allting alla prinsar kan
+                        <br>Prinsessor (kan), Prinsessor (kan), Prinsessor (kan), Prinsessor (kan)
+                        <br>Prinsessor kan ju ,klara, av att göra mer än en
+                        <br>
+                        <br>Vi kan slåss mot drakar, häxor, monster, troll
+                        <br>(Häxor, monster, troll)
+                        <br>Vad vi har byxan, spelar ingen roll
+                        <br>Vi kan väcka prinsar, utan något tugg
+                        <br>Då väcker jag dem hellre, med ett litet hugg
+                        <br>
+                        <br>Vet ni var vi inte gör?
+                        <br>Ja men snälla säg
+                        <br>Vi tror ej att  vi kan allt, och det lönar sig
+                        <br>(och det lönar sig)
+                        <br>Vi är ärliga, ljuger ej så brett
+                        <br>Sanningen är lika bra som min stilett
+                        <br>
+                        <br>Jag ska förklara för er en sak, en jättenkel sak,
+                        <br>Jo vi prinsessor kan, allting alla prinsar kan
+                        <br>Prinsessor (kan),Prinsessor (kan),Prinsessor (kan), Prinsessor (kan)
+                        <br>Prinsessor kan mer, än vad, alla dumma prinsar
+                        <br>KAN
+                        <br>
+                        <br>Vi kan slåss mot drakar, häxor, monster, troll
+                        <br>(Häxor, monster, troll)
+                        <br>Vad vi har byxan, spelar ingen roll
+                        <br>Vi kan väcka prinsar, utan något tugg
+                        <br>Jag väcker dem hellre, med ett litet hugg
+                        <br>
+                        <br>Så, det här är till alla ni
+                        <br>Som inte tror att vi, har någon plats i er regi
+                        <br>Vi har Rapunzel vår, med sitt svepande hår
+                        <br>Hon slår skurkar granna, med en cool stekpanna
+                        <br>Elsa kall, hon är ju så ball, alla kvinnors mall
+                        <br>
+                        <br>Och då mig, gör min grej
+                        <br>Jag tar stora kliv, och viftar med min kniv
+                        <br>Jag(Hon) tar stora kliv, och viftar med min(sin)
+                        <br>kniv
+                        <br>
+                        <br>Vi kan slåss mot drakar, häxor, monster, troll
+                        <br>(Häxor, monster, troll)
+                        <br>Vad vi har byxan, spelar ingen roll
+                        <br>Vi kan väcka prinsar, utan något tugg
+                        <br>(utan något tugg)
+                        <br>Vi väcker dem hellre, med ett litet hugg
+                        <br>
+                        <br>Vi kan slåss mot drakar
+                        <br>Prinsessor, prinsessor, prinsessor, prinsessor, prinsessor,
+                        <br>Kan, kan, kan, kan; (bättre än en prins kan)
+                        <br>Jag tar stora kliv, och viftar med min kniv
+                        <br>Jag(Hon) tar stora kliv, och viftar med min(sin)
+                        <br>kniv
+                        <br>Ha, ha, ha, ha, ha
+                        <br>Hon tar stora kliv, och viftar med sin
+                        <br>kniv
+                        <br>Jag tar stora kliv, och viftar med min kniv
+                        <br>
+                        <br>Prinsessorna räddar dagen
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">3. <b> Gastons skrytsång</b></summary>
+                    <div class="song">
+                        <b> Gastons skrytsång</b>
+                        <br>Melodi: Livin' la vida loca
+                        <br>
+                        <br>Gaston är allas hjälte
+                        <br>Gaston är allas man
+                        <br>Han har i sitt bälte
+                        <br>Alla pris som finnas kan
+                        <br>
+                        <br>Gaston är bäst på allting
+                        <br>Inget är för honom en last
+                        <br>Inte för egen vinning
+                        <br>Gaston är ju ödmjukast
+                        <br>
+                        <br>Gaston kan dansa utan att ens hålla i en takt
+                        <br>Gaston vet alltid var han sina bilnycklar har lagt
+                        <br>Behöver aldrig gå på jakt! Gaston!
+                        <br>
+                        <br>Gaston kan ju allt
+                        <br>Och nu ska han bli prinsessa
+                        <br>Sötast, snyggast är han
+                        <br>Som den finaste prinsessan
+                        <br>Stor, stark, hårig man
+                        <br>Gaston blir den bästa prinsessan
+                        <br>Vilken utmaning
+                        <br>Att bli den bästa prinsessan
+                        <br>Att bli den bästa prinsessan
+                        <br>Gaston blir den bästa prinsessan
+                        <br>
+                        <br>Förföljs av alla kvinnor
+                        <br>I alla fall mamman
+                        <br>Har tusen beundrarinnor
+                        <br>Enligt pornhubs reklam
+                        <br>
+                        <br>Gaston kan laga pepparkakor utan en varm ugn
+                        <br>Att få ont i magen betyder inget för en kung
+                        <br>Han är ju så lugn! Gaston!
+                        <br>
+                        <br>Gaston kan ju allt
+                        <br>Och nu ska han bli prinsessa
+                        <br>Sötast, snyggast är han
+                        <br>Som den finaste prinsessan
+                        <br>Stor, stark, hårig man
+                        <br>Gaston blir den bästa prinsessan
+                        <br>Vilken utmaning
+                        <br>Att bli den bästa prinsessan
+                        <br>Att bli den bästa prinsessan
+                        <br>Gaston blir den bästa prinsessan
+                        <br>
+                        <br>Gaston lyckades ta en kandidat i juridik.
+                        <br>Att det var på Malmö högskola hör inte hit.
+                        <br>På bara 7 år, en merit! Gaston!
+                        <br>
+                        <br>Gaston kan ju allt
+                        <br>Och nu ska han bli prinsessa
+                        <br>Sötast, snyggast är han
+                        <br>Som den finaste prinsessan
+                        <br>Stor, stark, hårig man
+                        <br>Gaston blir den bästa prinsessan
+                        <br>Vilken utmaning
+                        <br>Att bli den bästa prinsessan
+                        <br>
+                        <br>Gaston kan ju allt
+                        <br>Och nu ska han bli prinsessa
+                        <br>Sötast, snyggast är han
+                        <br>Som den finaste prinsessan
+                        <br>Stor, stark, hårig man
+                        <br>Gaston blir den bästa prinsessan
+                        <br>Vilken utmaning
+                        <br>Att bli den bästa prinsessan
+                        <br>Gaston blir den bästa prinsessan!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">4. <b> Alla kan va' en bro</b></summary>
+                    <div class="song">
+                        <b> Alla kan va' en bro</b>
+                        <br>Melodi: Love is an open door
+                        <br>
+                        <br>“Mulan, Bro, tack för att du lär mig allt du kan.”
+                        <br>
+                        <br>“Det är såklart, Bro”
+                        <br>
+                        <br>Jag har alltid varit rädd för att vara mig själv, en groda accepteras inte av folk.
+                        <br>
+                        <br>“Men som en bro så är det självklart att:”
+                        <br>Jag gillar dig för att du är en underbar vän,
+                        <br>och en bro är ju alltid där för, sin groda till bro!
+                        <br>
+                        <br>För en Bro
+                        <br>Ja en Bro
+                        <br>
+                        <br>Älskar alla bros
+                        <br>Varenda Bro!
+                        <br>
+                        <br>Och alla här i världen är en Bro
+                        <br>Alla kan va en Bro!
+                        <br>Alla kan va en Bro!
+                        <br>Alla kan va en Bro!
+                        <br>
+                        <br>Han där
+                        <br>En här
+                        <br>Vi är
+                        <br>Alla är!
+                        <br>
+                        <br>Alla kan va en Bro
+                        <br>
+                        <br>“Men vad är en bro?”
+                        <br>“Va?”
+                        <br>
+                        <br>Det låter som något
+                        <br>Underbart!
+                        <br>
+                        <br>“Det var inte vad jag tänkte!”
+                        <br>
+                        <br>Bro är väl en byggnad?
+                        <br>
+                        <br>Där har du faktiskt fel
+                        <br>Bro! Brofist!
+                        <br>Era fåniga charader
+                        <br>Ger mina tentakler spader
+                        <br>
+                        <br>Bro-
+                        <br>är nått-
+                        <br>långt?-
+                        <br>Som-
+                        <br>
+                        <br>Alla kan va
+                        <br>
+                        <br>Även jag?
+                        <br>Även du?
+                        <br>
+                        <br>Kan va tentakel-bro
+                        <br>Det är ingenting som hindrar dig/mig nu
+                        <br>
+                        <br>Alla kan va en Bro
+                        <br>Alla kan va en Bro
+                        <br>Tillsammans är vi Bros
+                        <br>
+                        <br>Jag är
+                        <br>Du är
+                        <br>Hon är
+                        <br>Vi är!
+                        <br>
+                        <br>Alla kan va en bro
+                        <br>
+                        <br>“Så nu vet du vad en bro är!”
+                        <br>“Jajuste”
+                        <br>“Så hur känns det?”
+                        <br>
+                        <br>“Jag tror inte den här sekten är något för mig.”
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">5. <b> AKTFINAL: Vad tror ni händer sen?</b></summary>
+                    <div class="song">
+                        <b> AKTFINAL: Vad tror ni händer sen?</b>
+                        <br>Melodi: Eye of the tiger
+                        <br>
+                        <br>Åh Gaston, min nyaste vän
+                        <br>
+                        <br>Skynda nu, han ska fritas
+                        <br>
+                        <br>Skit i honom, vi kan rädda han sen
+                        <br>
+                        <br>Men först ska, vi ju rädda vår värld
+                        <br>
+                        <br>Vad gör vi nu, det hände för snabbt
+                        <br>
+                        <br>Hur ska vi nu kunna välja
+                        <br>
+                        <br>Jag är ju bäst, klart att ni väljer mig
+                        <br>
+                        <br>Ni ska slåss för att rädda Gaston
+                        <br>
+                        <br>Vi har, snart halva inne
+                        <br>
+                        <br>Vad tror ni händer sen
+                        <br>
+                        <br>Vi har jobb, och har redan fått en fånge
+                        <br>
+                        <br>Hur kan vi sälja fika
+                        <br>
+                        <br>Utan kaffemaskin
+                        <br>
+                        <br>Snart ska alla få se mig var dag
+                        <br>
+                        <br>Vilken stor man
+                        <br>
+                        <br>Kommer jag, nånsin bli kysst
+                        <br>
+                        <br>Klart du blir, du har mitt stöd
+                        <br>
+                        <br>Men skärpning nu, han ska till fängelset
+                        <br>
+                        <br>Om du kysser mig nu, är jag din
+                        <br>
+                        <br>Vi har, snart halva inne
+                        <br>
+                        <br>Vad tror ni händer sen
+                        <br>
+                        <br>Kommer vi, någonsin att få se staden
+                        <br>
+                        <br>Gaston har, blivit fångad
+                        <br>
+                        <br>Är du en prinsessa
+                        <br>
+                        <br>Hela världen på spel vad tror ni, kommer hända
+                        <br>
+                        <br>Vi har, snart halva inne
+                        <br>
+                        <br>Vad tror ni händer sen
+                        <br>
+                        <br>Men först en, massa fika ni kan köpa
+                        <br>
+                        <br>Kaffe, godis och kaka, popcorn kanske en läsk
+                        <br>
+                        <br>Fortsättning kommer ni att få se, efter pausen
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">6. <b> KÖR</b></summary>
+                    <div class="song">
+                        <b> KÖR</b>
+                        <br>Melodi: Vuelie
+                        <br>
+                        <br><i><b>Bas/tenor:</b></i>
+                        <br>Nu är det dags igen, dags att köpa studio
+                        <br>för vi ska äga hela världen
+                        <br>snart så äger Disney allt x4
+                        <br>
+                        <br>Köpa upp, vi ska köpa allt
+                        <br>Köper er, ni blir ägodel
+                        <br>Köpa upp, köpa upp
+                        <br>
+                        <br>Nu finns det en sak kvar, en sak kvar att köpa
+                        <br>För vi har hört om ett studentspex
+                        <br>Hallandsspex nu tar vi er!
+                        <br>
+                        <br><i><b>Alt:</b></i>
+                        <br>Vi har ju egen studio
+                        <br>Låt oss va’
+                        <br>Vi har ju egen studio
+                        <br>Är ni bra?
+                        <br>Vi har en egen studio
+                        <br>Vill ni ha?
+                        <br>Vi hade egen studio
+                        <br>Blev det bra?
+                        <br>
+                        <br>Vad har hänt?!
+                        <br>
+                        <br>Köpa upp, vi ska köpa allt
+                        <br>Köper er, ni blir ägodel
+                        <br>Köpa upp, köpa upp
+                        <br>
+                        <br>Nu finns det en sak kvar, en sak kvar att köpa
+                        <br>För vi har hört om ett studentspex
+                        <br>Hallandsspex nu tar vi er!
+                        <br>
+                        <br><i><b>Mellanstämma + Sopran 2:</b></i>
+                        <br>Vi har ju egen studio
+                        <br>Låt oss va’
+                        <br>Vi har ju egen studio
+                        <br>Är ni bra?
+                        <br>Vi har en egen studio
+                        <br>Vill ni ha?
+                        <br>Vi hade egen studio
+                        <br>Blev det bra?
+                        <br>
+                        <br>Vad har hänt?!
+                        <br>
+                        <br>21st Fox
+                        <br>
+                        <br>Star wars, Star Wars
+                        <br>Småkrypsliv
+                        <br>Finns så många
+                        <br>
+                        <br>Nu finns det en sak kvar, en sak kvar att köpa
+                        <br>För vi har hört om ett studentspex
+                        <br>Hallandsspex nu tar vi er!
+                        <br>
+                        <br><i><b>Sopran 1:</b></i>
+                        <br>Pixar, Lucasfilm
+                        <br>Marvel, mupparna
+                        <br>Nalle i stort blått hus
+                        <br>21st Fox
+                        <br>Star Wars (4 stavelser), Avengers
+                        <br>Toy Story, Småkrypsliv
+                        <br>Och det finns så många fler
+                        <br>
+                        <br>För vi har hört om ett studentspex
+                        <br>Hallandsspex nu tar vi er!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">7. <b> Alltid missförstådd</b></summary>
+                    <div class="song">
+                        <b> Alltid missförstådd</b>
+                        <br>Melodi: Thinking about things
+                        <br>
+                        <br>Jag blir, alltid missförstådd [Stodd]
+                        <br>en satir, att jag skulle bli, trodd
+                        <br>
+                        <br>Trots min onda åsyn
+                        <br>Så har jag undersökt, med terapi försökt.
+                        <br>Att bli en bättre snubbe
+                        <br>Och sluta hålla monologer
+                        <br>För att bli god
+                        <br>Med en ELSA-Metod
+                        <br>Det kräver mycket men framförallt mod
+                        <br>Vi har bara börjat, med mod iscensatt
+                        <br>Att få varje skurk att bli god
+                        <br>
+                        <br>Vi blir, alltid missförstådda
+                        <br>Vad kan man göra åt saken
+                        <br>En satir, att vi skulle bli trodda
+                        <br>Ingen tror skurkar kan bli goda hjältar
+                        <br>
+                        <br>Jag vill bara jobba
+                        <br>Att arbeta ger min kropp och själ harmoni
+                        <br>Men alla ska mig mobba
+                        <br>För jag var ond i Lindgrens fantasi
+                        <br>Vi har försökt
+                        <br>I vårt län dock så trögt
+                        <br>Att få vår image att bli mera högt
+                        <br>Vi har bara börjat, med mod iscensatt
+                        <br>Att få varje skurk att bli god
+                        <br>
+                        <br>Vi blir, alltid missförstådda
+                        <br>Vad kan man göra åt saken
+                        <br>En satir, att vi skulle bli trodda
+                        <br>Ingen tror skurkar kan bli goda hjältar
+                        <br>
+                        <br>Även, man blir en landshövding
+                        <br>så på ett pling, kallas man för skurk
+                        <br>
+                        <br>Vi blir, alltid missförstådda
+                        <br>Vad kan man göra åt saken
+                        <br>En satir, att vi skulle bli trodda
+                        <br>Ingen tror skurkar kan bli goda hjältar
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">8. <b> Överarbetade Ariel</b></summary>
+                    <div class="song">
+                        <b> Överarbetade Ariel</b>
+                        <br>Melodi: SOS
+                        <br>
+                        <br>Jag jobbar varje dag, får aldrig ta en rast
+                        <br>Vill söka bättre jobb, där jag har mindre last
+                        <br>Men sen så kom en pandemi
+                        <br>Ingen jobbsäkerhet
+                        <br>Kan inte söka nytt, blir kvar en evighet
+                        <br>Det var på håret att man klara året 2020
+                        <br>Det öppna såret, som var förra året 2020
+                        <br>Jobba på
+                        <br>Klaga ej, bara säg: det kommer gå
+                        <br>Jobba på
+                        <br>Ingen vet, kanske det, blir bättre så
+                        <br>
+                        <br>Lämnade disney för att bli en stor skribent
+                        <br>Skrev böcker om att va, en magisk isregent
+                        <br>Och sen så kom en pandemi
+                        <br>Stoppa vår kultur
+                        <br>Hur ska man leva nu,  man är fast i en bur
+                        <br>
+                        <br>Det var på håret att man klara året 2020
+                        <br>Det öppna såret, som var förra året 2020
+                        <br>Jobba på
+                        <br>Klaga ej, bara säg: det kommer gå
+                        <br>Jobba på
+                        <br>Ingen vet, kanske det, bli bättre så
+                        <br>Det var på håret att man klara året 2020
+                        <br>Det öppna såret, som var förra året 2020
+                        <br>Jobba på
+                        <br>Klaga ej, bara säg: det kommer gå
+                        <br>Jobba på
+                        <br>Ingen vet, kanske det, bli bättre så
+                        <br>Jobba på
+                        <br>Klaga ej, bara säg: det kommer gå
+                        <br>Jobba på
+                        <br>Ingen vet, kanske det, bli bättre så
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">9. <b> Snövits entré</b></summary>
+                    <div class="song">
+                        <b> Snövits entré</b>
+                        <br>Melodi: Welcome to Burlesque
+                        <br>
+                        <br>Lenin är min gubbe
+                        <br>Stalin är min man
+                        <br>Gorbis och en nubbe
+                        <br>Snövit hon kan
+                        <br>
+                        <br>Vitare än vitt,
+                        <br>Kom och ta en titt
+                        <br>Jag har lärt mig av allt
+                        <br>daddy, Walter White
+                        <br>
+                        <br>Nu sover trötter
+                        <br>däckar som få
+                        <br>missfärgade nötter
+                        <br>efter valfusk två
+                        <br>
+                        <br>Ohh, Alla älskar snövit
+                        <br>Inget kollektivavtal
+                        <br>Om du vill sluta
+                        <br>Då är det slut på dig.
+                        <br>
+                        <br>Butter han var arg
+                        <br>Gick i aggro terapi
+                        <br>Fick spel på tanten
+                        <br>Så han slog sig fri
+                        <br>
+                        <br>Blyger han fick spel
+                        <br>Kallas nu Näcken
+                        <br>Visar upp sin del
+                        <br>inte bara häcken
+                        <br>
+                        <br>Glader säljer piller
+                        <br>Poppar då och då
+                        <br>ble' vild som en iller,
+                        <br>Ja så han fick gå,
+                        <br>
+                        <br>Ohh, Alla älskar snövit
+                        <br>Inget kollektivavtal
+                        <br>Om du vill sluta
+                        <br>Då är det slut på dig.
+                        <br>
+                        <br>Toker han blev galen
+                        <br>Efter t-sprit på Kjell
+                        <br>Han blev en hal’en
+                        <br>Paradise hotell
+                        <br>
+                        <br>Nu är det bara jag
+                        <br>Eget företag
+                        <br>Ja må va vag, men
+                        <br>Snövit är er lag
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">10. <b> TOTALFINAL: Walking on sunshine</b></summary>
+                    <div class="song">
+                        <b> TOTALFINAL: Walking on sunshine</b>
+                        <br>Melodi: Walking on sunshine
+                        <br>
+                        <br>För denna gång är sagan slut, men vi kommer igen
+                        <br>
+                        <br>För skurkar bromance och prinsessor ger överarbete
+                        <br>
+                        <br>Trots obesvarad kärlek och kyssar, Grodan Boll boll blev en prins
+                        <br>
+                        <br>Så tro på dig själv, Jaffe har medicinen till dig
+                        <br>
+                        <br>Nu har vi räddat dagen, whoa
+                        <br>
+                        <br>Ernst har blivit slagen, whoa
+                        <br>
+                        <br>Så ta dig i kragen, whoa
+                        <br>
+                        <br>Och spexa med oss
+                        <br>Hej, häng med nu
+                        <br>
+                        <br>Kom spexa med oss
+                        <br>
+                        <br>Hej, yeah
+                        <br>
+                        <br>Tekniken lyser upp som en fyr, syeriet dom syr
+                        <br>
+                        <br>Och sexmästeriet dom göder oss med konfektyr
+                        <br>
+                        <br>Dekoren och sminket de fixar
+                        <br>
+                        <br>Dansen gör en så yr, oj, oj, oj
+                        <br>
+                        <br>Så häng med oss igen nästa år på vårt spexäventyr
+                        <br>
+                        <br>Nu har vi räddat dagen, whoa
+                        <br>
+                        <br>Ernst har blivit slagen, whoa
+                        <br>
+                        <br>Så ta dig i kragen, whoa
+                        <br>
+                        <br>Och spexa med oss
+                        <br>
+                        <br>Hej, häng med nu
+                        <br>
+                        <br>Kom spexa med oss
+                        <br>
+                        <br>Åh, Gaston
+                        <br>
+                        <br>(Kom spexa med oss)
+                        <br>
+                        <br>(Vi har räddat dagen, vi har räddat dagen)
+                        <br>
+                        <br>Ett Hallandsspex, vårt Hallandsspex, vi är så bäst, klart bäst i test
+                        <br>
+                        <br>Ett Hallandsspex, vårt Hallandsspex, vi är så bäst, klart bäst i test
+                        <br>
+                        <br>(Nu har vi nått slutet, nej, 
+                        <br>men snart, så är vi tillbaka, ja)
+                        <br>
+                        <br>Vad kul att ni kom, whoa
+                        <br>
+                        <br>Och skratta åt skämten, whoa
+                        <br>
+                        <br>Och gav oss applåder, whoa
+                        <br>
+                        <br>Vi tackar för oss, whooo!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <button class="sb"
+                        style="background-color:gold;color:white;text-align:left;font-weight:bold;"></button>
+                </div>
+        </details>
+
+
+        <details class="sp one">
+            <summary style="list-style: none; padding: 5px">Mysteriet på Greveborg (2022)</summary>
+
+            <div class="content">
+            <!--    <div class="sb"
+                     style="background-color:#1a1a1a;color:white;text-align:left;font-weight:bold;font-size:20;border-left:2px-solid-red;padding:5px;"></div> -->
+
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">1. <b> Välkommen hit till Greveborg</b></summary>
+                    <div class="song">
+                        <b> Välkommen hit till Greveborg</b>
+                        <br>Melodi: Angel eyes
+                        <br>
+                        <br>Ah-ha-ha, ah-aaaah
+                        <br>Ah-ha-ha, ah-aaaah
+                        <br>Ah-ha-ha, välkommen hit till Greveborg
+                        <br>
+                        <br>Välkommen, a-aaah
+                        <br>
+                        <br>Du där, vill du höra om något helt fantastiskt
+                        <br>Detta slott ska vi göra till ett hotell
+                        <br>Vår familj är ju så entusiastisk
+                        <br>
+                        <br>Och nu vill vi inte höra något gnäll
+                        <br>
+                        <br>För vi vet, vår familj kan klara nästan vad som helst
+                        <br>Till och med, farfar Göte som är äldst
+                        <br>
+                        <br>Välkommen till Greveborg
+                        <br>Spexglädje och ingen sorg
+                        <br>Familjen Olsson samlas kring ett torg
+                        <br>
+                        <br>Vi ska bygga ett hotell
+                        <br>Gratis för den som är snäll
+                        <br>Och vi vet att det kommer bli en stor skräll
+                        <br>Välkommen hit till vårat slottshotell
+                        <br>
+                        <br>Oj, oj, oj, oj
+                        <br>
+                        <br>Ah-ha-ha, ah-aaaah
+                        <br>Ah-ha-ha, ah-aaaah
+                        <br>Ah-ha-ha, välkommen hit till Greveborg
+                        <br>
+                        <br>Välkommen, a-aaah
+                        <br>
+                        <br>Jag har, nästan gjort allting som en man kan göra
+                        <br>Och jag kan hindra barnen från att störa
+                        <br>Dessa pappor som alltid vägrar höra
+                        <br>Här finns ingen som vill leka nå’t med oss
+                        <br>Men vi vet, vår familj kan klara nästan vad som helst
+                        <br>Ha ha ha, eran dröm kan gå i kross
+                        <br>
+                        <br>Välkommen till Greveborg
+                        <br>Spexglädje och ingen sorg
+                        <br>Men vad har Krut-Bertil uti sin korg?
+                        <br>
+                        <br>Vi ska bygga ett hotell
+                        <br>Gratis för den som är snäll
+                        <br>Och vi vet att det kommer bli en stor skräll
+                        <br>Välkommen hit till vårat slottshotell
+                        <br>
+                        <br>Välkommen till Greveborg
+                        <br>Greveborg
+                        <br>Vi blev ju lovade en stor hoppborg
+                        <br>
+                        <br>Välkommen till Greveborg
+                        <br>Spexglädje och ingen sorg
+                        <br>Vi lura’ våra barn att det fanns hoppborg
+                        <br>Familjen Olsson kommer klara allt
+                        <br>
+                        <br>Aj, aj, aj, aj
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">2. <b> Mitt namn är Dick</b></summary>
+                    <div class="song">
+                        <b> Mitt namn är Dick</b>
+                        <br>Melodi: Big dick
+                        <br>
+                        <br>Mitt namn är Dick, mitt namn är faktiskt Dick
+                        <br>Vad är mitt namn, jo Dick, nästan huvudlöse Dick
+                        <br>Ni hör hans namn, är Dick, nästan huvudlöse Dick
+                        <br>Är det hans namn?, just Dick, nästan huvudlöse Dick?
+                        <br>Här är jag
+                        <br>
+                        <br>Mitt namn är Dick, från Staffanstorp
+                        <br>Jag är berömd, smart som en korp
+                        <br>Historia, det är min grej
+                        <br>Det är min grej, det är hans grej
+                        <br>Men varför kallas du halvlös?
+                        <br>Jo, det kan jag ju berätta
+                        <br>Det var kall vinter, och jag frös
+                        <br>Den gick halvt av, (vad gick halvt av!?)
+                        <br>
+                        <br>Den gick halvt av, (Vad gick av?)
+                        <br>Jo min (Ej för barn!)
+                        <br>Min lärarplan! (Jaså, den!)
+                        <br>Såklart (Ahaa)
+                        <br>Vi fattar noll (kör igen)
+                        <br>Halvlös (det blev jag)
+                        <br>Men jag heter, Dick,  Dick, Dick, Dick, Dick, Dick, Dick, Dick
+                        <br>Här är jag!
+                        <br>
+                        <br>Mitt namn är Dick, mitt namn är faktiskt Dick
+                        <br>Vad är mitt namn, jo Dick, nästan huvudlöse Dick
+                        <br>Ni ser hans namn, är Dick, nästan huvudlöse Dick
+                        <br>Okej, hans namn, är Dick, nästan huvudlöse Dick!
+                        <br>Det är jag!
+                        <br>
+                        <br>Men kom till sak, hur möttes ni?
+                        <br>Det var faktiskt en tragedi
+                        <br>Det var vintern, år 1912
+                        <br>Jag blev nedslagen med en kolv (Bang!)
+                        <br>Han lämnade, sin döda kropp
+                        <br>Saknar nog ej sin lilla (HATT!)
+                        <br>I fjärran såg jag en skugga
+                        <br>Han mötte mig (det gjorde jag)
+                        <br>
+                        <br><i>MELLANSPEL: (åtta långa Dicks och sedan många korta)</i>
+                        <br>
+                        <br>Hans namn, är Dick, dick, dick, dick, dick, dick, dick, dick
+                        <br>Ja Dick, dick, dick, dick, Huvudlöse Dick, det är jag
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">3. <b> Everytime we DON'T touch</b></summary>
+                    <div class="song">
+                        <b> Everytime we DON'T touch</b>
+                        <br>Melodi: Everytime we touch
+                        <br>
+                        <br>Jag har aldrig träffat någon just som du
+                        <br>Tänk om du skulle bli min fru
+                        <br>Mitt hjärta som alltid känts tomt, kallt och dött
+                        <br>Med dig känns nu allting så sött
+                        <br>
+                        <br>Det enda som jag vill
+                        <br>Är att få röra
+                        <br>Jag vill kunna krypa
+                        <br>Upp, tätt in-till
+                        <br>Promenad i månens sken
+                        <br>Du och jag, hand i hand
+                        <br>Låter som en dröm
+                        <br>
+                        <br>Det enda som jag vill,
+                        <br>Är att få smeka
+                        <br>Händer under täcket,
+                        <br>Med Netflix & Chill
+                        <br>Låsa ute pappors gnäll,
+                        <br>Tro mig jag är snäll
+                        <br>Är du min soulmate?
+                        <br>
+                        <br><i>Dubbel-dans</i>
+                        <br>
+                        <br>Ditt lakan det fladdrar
+                        <br>vad finns under där?
+                        <br>Du väcker ett inre begär
+                        <br>
+                        <br>Din emo-poesi
+                        <br>Ditt mörker så hett
+                        <br>Att hångla med dig vore fett
+                        <br>
+                        <br>Det enda som jag vill,
+                        <br>är att få ligga
+                        <br>I samma säng som dig
+                        <br>Kan ej vara still
+                        <br>Höra mina klagomål
+                        <br>Du är min idol
+                        <br>Har nånting av stål
+                        <br>
+                        <br>Det enda som jag vill,
+                        <br>Är att få dunka
+                        <br>Mitt huvud i en vägg,
+                        <br>tillsammans med dig
+                        <br>Kan inte höra hjärtat ditt,
+                        <br>Men du hör ju mitt
+                        <br>Kärleken blev lit
+                        <br>
+                        <br><i>Halvt dansbreak</i>
+                        <br>
+                        <br>Det enda som jag vill,
+                        <br>är att förena
+                        <br>dig och mig, vem vet
+                        <br>hur det ska gå till
+                        <br>Kommer vi nån gång att få
+                        <br>Känna hud mot hud
+                        <br>Hur ska detta gå
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">4. <b> Leta skatt</b></summary>
+                    <div class="song">
+                        <b> Leta skatt</b>
+                        <br>Melodi: Nine to five
+                        <br>
+                        <br>Lyssna nu på mig
+                        <br>Jag har något att berätta
+                        <br>Vi ska bli av med Pimpinetta
+                        <br>För jag är chef
+                        <br>Och skatten ska bli vår
+                        <br>
+                        <br>Men vad ska vi gör(a)
+                        <br>Vi har inga planer
+                        <br>lita på mig
+                        <br>för vi är kumpaner
+                        <br>Hellre det än att jobba på kontor!
+                        <br>
+                        <br>Vi ska leta skatt
+                        <br>Kommunlönen är en stor bluff
+                        <br>Vi får nästan fnatt
+                        <br>Av att alltid ha det så tufft
+                        <br>Men vad säger ni
+                        <br>Ska vi lura vår Grevinna?
+                        <br>Det är dags att börja,
+                        <br>följa någon annan!
+                        <br>
+                        <br>Leta skatt, för att ha nånting att göra
+                        <br>Vi ska bli rika
+                        <br>låter ingen annan störa
+                        <br>Här på Greveborg
+                        <br>Finns det bara ett mysterium
+                        <br>Vi alla undrar ju vad, Preben säger
+                        <br>
+                        <br>Jag hänger ej med
+                        <br>Vet inte vad jag gör här
+                        <br>Jag är lojal
+                        <br>Men till vilken maktsfär?
+                        <br>Grevinnan är ju min största idol
+                        <br>
+                        <br>Vi är i samma båt
+                        <br>Du har inget val nu
+                        <br>Jag ska bli despot, er nya slottsfru
+                        <br>Och ni vet vår kommun
+                        <br>Ska bli finare än Flen
+                        <br>
+                        <br>Vi ska hitta skatt
+                        <br>Det är bara börja leta
+                        <br>Driva bort mänskor
+                        <br>Och det räcker nog att reta
+                        <br>Här på Greveborg
+                        <br>Finns det bara plats för spöken
+                        <br>Men jag tror ni glömmer
+                        <br>Någonting där fröken
+                        <br>
+                        <br>Leta skatt
+                        <br>för att ha nånting att göra
+                        <br>Vi ska bli rika
+                        <br>låter ingen annan störa
+                        <br>Här på Greveborg
+                        <br>Finns det bara ett mysterium
+                        <br><i><b>På danska:</b></i> (selföllelig, pölse tuborg röd gröd med flöde)
+                        <br>
+                        <br>Leta skatt
+                        <br>Det är bara börja hitta
+                        <br>men jag tror nog att
+                        <br>Det är dags för mig att gitta
+                        <br>Litar inte på
+                        <br>Att jag får en del av skatten
+                        <br>Det är dags att börja,
+                        <br>följa någon annan!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">5. <b> AKTFINAL: Ghostbusters</b></summary>
+                    <div class="song">
+                        <b> AKTFINAL: Ghostbusters</b>
+                        <br>Melodi: Ghostbusters
+                        <br>
+                        <br>På slottet!
+                        <br>Det är aktfinal
+                        <br>Och snart är det paus
+                        <br>Vad händer se’n?
+                        <br>På slottet!
+                        <br>
+                        <br>Att bli levande
+                        <br>För att få en kyss
+                        <br>Det är vårat mål
+                        <br>På slottet!
+                        <br>
+                        <br>Livet på Greveborg
+                        <br>Fyllt med spöken skoj
+                        <br>
+                        <br>Vårat drömhotell
+                        <br>Blir det aldrig av?
+                        <br>Vad ska vi göra
+                        <br>Med slottet?
+                        <br>
+                        <br>De ska ut härifrån
+                        <br>Så blir jag ensam
+                        <br>Åh, älskade Göte
+                        <br>På slottet!
+                        <br>
+                        <br>Fick Lakan ett nytt liv?
+                        <br>Blev Nagini passiv?
+                        <br>
+                        <br>Vad händer sedan?
+                        <br>På slottet!
+                        <br>
+                        <br>Snart är skatten min
+                        <br>Och inte din
+                        <br>Vem är nummer ett?
+                        <br>Hairiett!
+                        <br>
+                        <br>Blir det ens ett hotell?
+                        <br>Ooh, ett rum bara för oss
+                        <br>Finns det ens någon skatt
+                        <br>Var kan den va
+                        <br>
+                        <br>Vad händer sedan?
+                        <br>På slottet!
+                        <br>
+                        <br>Och vi, kan lova dig att vi
+                        <br>Kommer tillbaka
+                        <br>I vår akt två
+                        <br>På slottet!
+                        <br>Ow!
+                        <br>
+                        <br>Åh? Vad ska ni göra?
+                        <br>Köp fika!
+                        <br>Bulle ska ni äta
+                        <br>Och kaffe!
+                        <br>Åh, det gör ni nu
+                        <br>I pausen!
+                        <br>Vi ses i akt två
+                        <br>Dra ridå
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">6. <b> KÖR</b></summary>
+                    <div class="song">
+                        <b> KÖR</b>
+                        <br>Melodi: Tjuv och tjuv
+                        <br>
+                        <br><i><b>Sopran</b></i>
+                        <br>Nu. Då är det julkalender
+                        <br>Dags att bänka sig vid soffan
+                        <br>Klockan är kvart över sju
+                        <br>Kommer det att bli helt magiskt
+                        <br>Eller dela oss itu
+                        <br>Julkalender, Yay!
+                        <br>Julkalender, Nej!
+                        <br>Julkalender, Meh!
+                        <br>Julkalender, Hej!
+                        <br>
+                        <br>Det. Allt var så mycket bättre.
+                        <br>Jul
+                        <br>Jul
+                        <br>Kalender
+                        <br>Ja, julkalender
+                        <br>Jul
+                        <br>Ja, julkalender
+                        <br>Julkalender, Yay!
+                        <br>Julkalender, Nej!
+                        <br>Julkalender, Meh!
+                        <br>Julkalender, Hej!
+                        <br>men vad ska
+                        <br>hända i
+                        <br>Tjugo-tjugotvå?
+                        <br>
+                        <br>Kommer vi få snö och tomtar?
+                        <br>Kanske nåt som trolltider?
+                        <br>Eller dokumentär som i
+                        <br>tusen år till julafton?
+                        <br>Vilken var då bäst?
+                        <br>Var det Allram Eest?
+                        <br>Eller panik i
+                        <br>Tomteverkstaden?
+                        <br>
+                        <br>Tomtemaskinen
+                        <br>En decemberdröm
+                        <br>Någon måste väl va bra?
+                        <br>Men i Mumindalen
+                        <br>Eller Mirakel
+                        <br>Ja, nu tror vi att vi vet
+                        <br>Mysteriet på Greveborg
+                        <br>
+                        <br><i><b>Alt</b></i>
+                        <br>Är det. Då är det julkalender
+                        <br>Dags
+                        <br>Klo
+                        <br>Julkalender, Yay!
+                        <br>Julkalender, Nej!
+                        <br>Julkalender, Meh!
+                        <br>Julkalender, Hej!
+                        <br>
+                        <br>Var my. Allt var så mycket bättre
+                        <br>Jul
+                        <br>Jul
+                        <br>Kalender
+                        <br>Ja, julkalender
+                        <br>Jul
+                        <br>Ja, julkalender
+                        <br>Julkalender, Yay!
+                        <br>Julkalender, Nej!
+                        <br>Julkalender, Meh!
+                        <br>Julkalender, Hej!
+                        <br>men vad ska
+                        <br>hända i
+                        <br>Tjugo-tjugotvå?
+                        <br>
+                        <br>Kommer vi få snö och tomtar?
+                        <br>Kanske nåt som trolltider?
+                        <br>Eller dokumentär som i
+                        <br>tusen år till julafton?
+                        <br>Vilken var då bäst?
+                        <br>Var det Allram Eest?
+                        <br>Eller panik i
+                        <br>Tomteverkstaden?
+                        <br>
+                        <br>Tomtemaskinen
+                        <br>En decemberdröm
+                        <br>Någon måste väl va bra?
+                        <br>Men i Mumindalen
+                        <br>Eller Mirakel
+                        <br>Ja, nu tror vi att vi vet
+                        <br>Mysteriet på Greveborg
+                        <br>
+                        <br><i><b>Tenor</b></i>
+                        <br>Snart jul. Då är det julkalender
+                        <br>Dags, sig vid soffan
+                        <br>Klo är över sju
+                        <br>Kom bli helt magiskt
+                        <br>De - la oss itu
+                        <br>Julkalender, Yay!
+                        <br>Julkalender, Nej!
+                        <br>Julkalender, Meh!
+                        <br>Julkalender, Hej!
+                        <br>
+                        <br>Cket Bä. Allt var så mycket bättre.
+                        <br>Teskedsgumman, Pelle Svanslös
+                        <br>Julens hjältar, Sunes jul
+                        <br>Alla dessa julkalendrar
+                        <br>gjorde att vi hade kul
+                        <br>Julkalender, Yay!
+                        <br>Julkalender, Nej!
+                        <br>Julkalender, Meh!
+                        <br>Julkalender, Hej!
+                        <br>men vad ska
+                        <br>hända i
+                        <br>Tjugo-tjugotvå?
+                        <br>
+                        <br>Kommer vi få snö och tomtar?
+                        <br>Kanske nåt som trolltider?
+                        <br>Eller dokumentär som i
+                        <br>tusen år till julafton?
+                        <br>Vilken var då bäst?
+                        <br>Var det Allram Eest?
+                        <br>Eller panik i
+                        <br>Tomteverkstaden?
+                        <br>
+                        <br>Nej, inte Pettson
+                        <br>Usch, låt mig glömma
+                        <br>Någon måste väl va bra?
+                        <br>Inte den bästa
+                        <br>Lite för modern
+                        <br>Ja, nu tror vi att vi vet
+                        <br>Mysteriet på Greveborg
+                        <br>
+                        <br><i><b>Bas</b></i>
+                        <br>Igen. Då är det julkalender
+                        <br>Dags
+                        <br>Klo
+                        <br>Julkalender, Yay!
+                        <br>Julkalender, Nej!
+                        <br>Julkalender, Meh!
+                        <br>Julkalender, Hej!
+                        <br>
+                        <br>Tre förr. Allt var så mycket bättre.
+                        <br>Teskedsgumman, Pelle Svanslös
+                        <br>Julens hjältar, Sunes jul
+                        <br>Alla dessa julkalendrar
+                        <br>gjorde att vi hade kul
+                        <br>Julkalender, Yay!
+                        <br>Julkalender, Nej!
+                        <br>Julkalender, Meh!
+                        <br>Julkalender, Hej!
+                        <br>men vad ska
+                        <br>hända i
+                        <br>Tju-två?
+                        <br>
+                        <br>Kommer vi få snö och tomtar?
+                        <br>Kanske nåt som trolltider?
+                        <br>Eller dokumentär som i
+                        <br>tusen år till julafton?
+                        <br>Vilken var då bäst?
+                        <br>Var det Allram Eest?
+                        <br>Eller panik i
+                        <br>Tomteverkstaden?
+                        <br>
+                        <br>Nej, inte Pettson
+                        <br>Usch, låt mig glömma
+                        <br>Någon måste väl va bra?
+                        <br>Inte den bästa
+                        <br>Lite för modern
+                        <br>Ja, nu tror vi att vi vet
+                        <br>Mysteriet på Greveborg
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">7. <b> Dammråtta</b></summary>
+                    <div class="song">
+                        <b> Dammråtta</b>
+                        <br>Melodi: <a href="https://www.youtube.com/watch?v=FQsd-GB1WU0" target="_blank">Wrecking ball</a>
+                        <br>
+                        <br>För jag är en dammråtta
+                        <br>Finns överallt och ingenstans
+                        <br>Eran riddare med mustig svans
+                        <br>gömmer synder under, sängen
+                        <br>Under sängen
+                        <br>
+                        <br>Alltid bara du och jag
+                        <br>blir ersatt, inte till behag
+                        <br>Gäster kommer på besök
+                        <br>Utkastad från mitt eget kök
+                        <br>Men jag kommer alltid tillbaka
+                        <br>I din bunke när du ska baka
+                        <br>Dig jag alltid övervaka
+                        <br>Ni alla har mig, alltid där för dig
+                        <br>Men ingen vill ha mig…
+                        <br>
+                        <br>För jag är er dammråtta ( DAAAAAM)
+                        <br>Finns överallt och ingenstans
+                        <br>Damm och smutsig svans (SVAAANS)
+                        <br>Förstör dina möbler
+                        <br>med äckligt damm
+                        <br>För jag är eran dammråtta
+                        <br>Finns överallt och ingenstans
+                        <br>Eran riddare med mustig svans
+                        <br>gömmer synder under ,sängen
+                        <br>vi möts under sängen,
+                        <br>vi möts under sängen
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb two">
+                    <summary style="list-style: none; padding: 5px">8. <b> Tangoduell</b></summary>
+                    <div class="song">
+                        <b> Tangoduell</b>
+                        <br>Melodi: Cell block tango
+                        <br>
+                        <br>Mord
+                        <br>Krig
+                        <br>Pölse
+                        <br>Åh Åh
+                        <br>Spöken
+                        <br>Lakan
+                        <br>
+                        <br>Och nu, ska det dansas tills vi blöder, var redo skräckisar
+                        <br>Det här är vårat Greveborg
+                        <br>Spöken
+                        <br>Lakan
+                        <br>
+                        <br>Mord
+                        <br>Krig
+                        <br>Pölse
+                        <br>Åh Åh
+                        <br>Spöken
+                        <br>Lakan
+                        <br>Mord, Krig, Pölse, Åh-Åh, Spöken, Lakan
+                        <br>Mord, Krig, Pölse, Åh-Åh, Spöken, Lakan
+                        <br>Mord, Krig, Pölse, Åh-Åh, Spöken, Lakan
+                        <br>Det här är vårt hem'
+                        <br>Det här är vårt hem
+                        <br>Det här är vårat Greveborg
+                        <br>Så försvinn nu
+                        <br>ja försvinn nu
+                        <br>Från vårt fantastiska Greveborg
+                        <br>Mord, Krig, Pölse, Åh-Åh, Spöken, Lakan
+                        <br>Mord, Krig, Pölse, Åh-Åh, Spöken, Lakan
+                        <br>
+                        <br>Ni vet hur människor hittar på dumma idéer som stör spökvardagen
+                        <br>Som Krut-Bertil
+                        <br>Krut-Bertil vill göra hotell
+                        <br>Nej inte göra, förstöra
+                        <br>Han vill förstöra ett helt perfekt slott fyllt med spindelnät och ovaktade skatter
+                        <br>Och vi spöken som bara vill vara ifred
+                        <br>Ska du säga, du som skrämmer och bråkar och väsnas
+                        <br>Nej, inte skrämmer
+                        <br>Förstör
+                        <br>Du vill förstöra det perfekta hotellet för en skatt
+                        <br>Inte ens din skatt
+                        <br>Så vi ska få hit lite gäster
+                        <br>Ett hundra präster
+                        <br>
+                        <br>Det här är vårt hem'
+                        <br>Det här är vårt hem
+                        <br>Det här är vårat Greveborg
+                        <br>Så försvinn nu
+                        <br>ja försvinn nu
+                        <br>Från vårt fantastiska Greveborg
+                        <br>Jag och Brevbäraren anställdes av kommunen för flera år sedan
+                        <br>Och vi visste att Knollarp skulle bli vackrast i landet
+                        <br>Så vi kom till slottet
+                        <br>Vi skulle leta skatt, få lite kosing
+                        <br>Vi skulle bli hela kommunens hjältar
+                        <br>Tills ni dök upp!
+                        <br>“Hjältar” säger du
+                        <br>“Hjältar” mina haremsbyxor
+                        <br>Ni gav oss massa onödigt arbete
+                        <br>Höll oss borta från vår älskade familj
+                        <br>Krut-Bertil och… resten
+                        <br>Vårt hotell kommer bli en oas öppen för alla
+                        <br>Så fort vi har gjort oss av med er…
+                        <br>
+                        <br>Vissa spöken borde stanna i garderoben!
+                        <br>
+                        <br>För ni ska ut (För ni ska ut)
+                        <br>För ni ska ut (För ni ska ut)
+                        <br>
+                        <br>Det här är vårt hem
+                        <br>Det här är vårt hem
+                        <br>Det här är vårat Greveborg
+                        <br>Så ge upp nu
+                        <br>ja se upp nu!
+                        <br>För ni ska bort från vårt Greveborg!
+                        <br>
+                        <br>Mord
+                        <br>Krig
+                        <br>Pölse
+                        <br>Åh Åh
+                        <br>Spöken
+                        <br>Lakan!
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <details class="sb one">
+                    <summary style="list-style: none; padding: 5px">9. <b> TOTALFINAL: Highway to hotell</b></summary>
+                    <div class="song">
+                        <b> TOTALFINAL: Highway to hotell</b>
+                        <br>Melodi: Highway to hell
+                        <br>
+                        <br>Aaaahh
+                        <br>
+                        <br>Vårt hotell
+                        <br>Öppnar nu
+                        <br>Vi ska hitta på en massa bus
+                        <br>
+                        <br>Mitt museum
+                        <br>Ganska kallt
+                        <br>Jag släpper mina bomber överallt
+                        <br>
+                        <br>Fått nytt jobb
+                        <br>Men ingen skatt
+                        <br>Finns det pölse så är allt all right
+                        <br>
+                        <br>Äkta kärlek
+                        <br>Nejmen oj
+                        <br>I Dicks låda finns nog nånting skoj
+                        <br>
+                        <br>Nu har vi öppnat hotell
+                        <br>Ett riktigt spökslottshotell
+                        <br>Lovar va' snäll
+                        <br>På vårt spökspex-hotell
+                        <br>
+                        <br>Vi har dekor
+                        <br>I högsta grad
+                        <br>Syets snygga kostymer på rad
+                        <br>Dansen fixar
+                        <br>Wow spagat
+                        <br>Sexet serverar på silverfat
+                        <br>PR fotar
+                        <br>O gör inlägg
+                        <br>Sminket fixar sexigt skägg
+                        <br>Bandet lirar
+                        <br>Grym Teknik
+                        <br>Vi älskar er vår pubiiiiik
+                        <br>
+                        <br>Det här är vårt hallandsspex
+                        <br>Är bäst i test
+                        <br>Det här är vårt hallandsspex
+                        <br>Vad kommer härnäst
+                        <br>
+                        <br>Det här är vårt hallandsspex
+                        <br>Publiken är bäst
+                        <br>Det här är vårt hallandsspex
+                        <br>Vårt hallandsspex
+                        <br><br><br><br>
+                    </div>
+                </details>
+
+                <button class="sb"
+                        style="background-color:gold;color:white;text-align:left;font-weight:bold;"></button>
+
+            </div>
+        </details>
+
+        <details class="sp two">
+            <summary style="list-style: none; padding: 5px">Sagan om Spexet om Föreställningen om Hamleton: En Bartenders Memoarer (2023)</summary>
+
+                   <div class="content">
+  <!--   <div class="sb"
+         style="background-color:#1a1a1a;color:white;text-align:left;font-weight:bold;font-size:20;border-left:2px-solid-red;padding:5px;"></div> -->
+
+            <details class="sb two">
+                <summary style="list-style: none; padding: 5px">1. <b> Livet på Dramaten</b></summary>
+                <div class="song">
+                    <b> Livet på Dramaten</b>
+                    <br>Melodi: Never gonna give you up
+                    <br>
+                    <br>Här på våran Drama(-aaaa-)t
+                    <br>Finns inga regler, var bara glad!
+                    <br>Det leder alltid till en, massa jobb
+                    <br>Hur ska jag orka med, hela listan lång?
+                    <br>
+                    <br>Jag vill bara att vi har det roligt
+                    <br>Tänk på vad vi, en gång sa'
+                    <br>
+                    <br>Vi ska sätta upp en pjäs
+                    <br>Vi ska leva livet snart
+                    <br>Allting är så härligt här på Dramaten
+                    <br>Jag vill bara vara klar
+                    <br>Jag vill bara ha chokla-ad
+                    <br>Livet är så härligt här på Dramaten
+                    <br>
+                    <br>Har känt varandra, länge nu
+                    <br>Min största dröm var att
+                    <br>Äga en teater
+                    <br>Är doktorand i frisyr-vetenskap
+                    <br>Jag kan ju ingenting, om teater!
+                    <br>
+                    <br>Jag känner mig så hög på livet
+                    <br>Men säg inte så, framför barn!
+                    <br>
+                    <br>Vi ska sätta upp en pjäs
+                    <br>Vi ska leva livet snart
+                    <br>Allting är så härligt här på Dramaten
+                    <br>Jag vill klippa en frisyr
+                    <br>Jag vill köpa något dyrt
+                    <br>Livet är så härligt här på Dramaten
+                    <br>
+                    <br>Vi ska sätta upp en pjäs
+                    <br>Vi ska leva livet snart
+                    <br>Allting är så härligt här på Dramaten
+                    <br>Jag vill sova i en säng
+                    <br>Jag vill putsa på min peng
+                    <br>Livet är så härligt här på Dramaten
+                    <br>
+                    <br>(Åååh, Dramaten)
+                    <br>(Åååh, Dramaten)
+                    <br>Leva livet på, leva livet på
+                    <br>(Åååh, Dramaten)
+                    <br>Leva livet på, leva livet på
+                    <br>(Åååh, Dramaten)
+                    <br>
+                    <br>Att-göra-listan är så, läskigt lång
+                    <br>Hur ska jag hinna med
+                    <br>Allting jag ska göra
+                    <br>Men ta det lugnt nu kära, Doktor Lugg
+                    <br>Sånt brukar lösa sig, av sig sjä-älvt
+                    <br>
+                    <br>Jag kan känna hur mitt blodtryck stiger
+                    <br>Måste få dig, att förstå
+                    <br>
+                    <br>Vi ska sätta upp en pjäs
+                    <br>Vi ska leva livet snart
+                    <br>Allting är så härligt här på Dramaten
+                    <br>Jag vill att det blir nå't bra
+                    <br>Jag vill slå i USA
+                    <br>Livet är så härligt här på Dramaten
+                    <br>
+                    <br>Vi ska sätta upp en pjäs
+                    <br>Vi ska leva livet snart
+                    <br>Allting är så härligt här på Dramaten
+                    <br>Jag vill bara vara klar
+                    <br>Jag vill bara ha chokla-ad
+                    <br>Livet är så härligt här på Dramaten
+                    <br><br><br><br>
+                </div>
+            </details>
+
+            <details class="sb one">
+                <summary style="list-style: none; padding: 5px">2. <b> Fantomen och Kenny</b></summary>
+                <div class="song">
+                    <b> Fantomen och Kenny</b>
+                    <br>Melodi: Barbie girl
+                    <br>
+                    <br>Tja Fantomen
+                    <br>Hej Kenny
+                    <br>Kan du fixa en sak här?
+                    <br>Visst Kenny
+                    <br>Perfekt!
+                    <br>
+                    <br>Jag arbetar här, på Dramaten dääär
+                    <br>Alla leker, och jag sveper
+                    <br>Det är helt okej, men det är en grej
+                    <br>Som jag önskar, men drömmen kan jag glömma
+                    <br>
+                    <br>Wolli bolli wolli bolli
+                    <br>Jag vill stå på scen, flasha mina ben
+                    <br>i trikåer, få applåder
+                    <br>sjunga om nåt coolt, typ zombieinvasion
+                    <br>på dramaten, få spela teater
+                    <br>
+                    <br>Hej Fantomen är jag och jag gör mitt jobb bra, men jag tänker rätt ofta på annat
+                    <br>Jag är snygg, jag är smart, tjejer skriker på stan
+                    <br>“Oh my god, ring tillbaks Kenny-nugget”
+                    <br>
+                    <br>Du är såå, min idol
+                    <br>om jag får så blir jag din, ooh woah
+                    <br>
+                    <br>Tänk om lilla jag va tillräckligt bra
+                    <br>för att sjunga, för flera hundra
+                    <br>göra musikal om allt
+                    <br>paranormalt
+                    <br>bli en kändis, just precis som Kenny
+                    <br>
+                    <br>Raka benen, rasta farmor
+                    <br>Gud va fräsh han e
+                    <br>Slå på bröstet, träna rösten
+                    <br>En sån man, en sån man
+                    <br>Spraya hårsprej, 50 liter
+                    <br>Ah ah ahtchooo
+                    <br>Ischlo pischlo nys i armveck
+                    <br>Förlåt mig, förlåt mig
+                    <br>
+                    <br>Hade gett vad som helst för att vara
+                    <br>som dig
+                    <br>Vilken man, vad du kan, Kenny-starboy o wow
+                    <br>Jag kan lära dig allt, brukar ta typ
+                    <br>en kvart
+                    <br>Men du saknar tyvärr rätta charmen
+                    <br>
+                    <br>Jag vet att, jorden är platt
+                    <br>men ingenting om skådespel
+                    <br>Jag kan stä-da en tratt
+                    <br>men får aldrig stå på scen
+                    <br>
+                    <br>Kolla salsa, jag kan dansa
+                    <br>Vilka höfter wow
+                    <br>Vem är bäst i hela världen
+                    <br>Du Kenny, du Kenny
+                    <br>Huvud axlar knä och tårna
+                    <br>Oj så vig han är
+                    <br>Öka takten sista kvarten
+                    <br>Åh heja åh heja
+                    <br>
+                    <br>Jag vill stå på scen, flasha mina ben
+                    <br>i trikåer, få applåder
+                    <br>sjunga om nåt coolt, typ zombieinvasion
+                    <br>på dramaten, få spela teater
+                    <br>
+                    <br>Tänk om lilla jag va tillräckligt bra
+                    <br>för att sjunga, för flera hundra
+                    <br>göra musikal om allt
+                    <br>paranormalt
+                    <br>bli en kändis, just precis som Kenny
+                    <br>
+                    <br>Kolla salsa, jag kan dansa
+                    <br>Vilka höfter wow
+                    <br>Vem är bäst i hela världen
+                    <br>Du Kenny, du Kenny
+                    <br>Huvud axlar knä och tårna
+                    <br>Oj så vig han är
+                    <br>Öka takten sista kvarten
+                    <br>Åh heja åh heja
+                    <br>
+                    <br>Åh vad du är duktig Kenny
+                    <br>Vad ska jag säga Fantomen, jag föddes perfekt
+                    <br>Oh, I love you Kenny
+                    <br><br><br><br>
+                </div>
+            </details>
+
+            <details class="sb two">
+                <summary style="list-style: none; padding: 5px">3. <b> HerO Devil</b></summary>
+                <div class="song">
+                    <b> HerO Devil</b>
+                    <br>Melodi: Macken
+                    <br>
+                    <br>Devil?
+                    <br>Jaa?
+                    <br>Har du sett ägget?
+                    <br>Nä det gjorde jag omelett på
+                    <br>
+                    <br>Jag heter Devil, starkast i sta'n
+                    <br>Vacker som en svan
+                    <br>Mitt namn är Hero, är likadan
+                    <br>Fast lite mera svag
+                    <br>Devil snarkar som en stock
+                    <br>Väcker mig med chock
+                    <br>Tyst, gamle bock!
+                    <br>
+                    <br>HerO Devil är ett radarpar
+                    <br>HerO Devil hänger i en bar
+                    <br>HerO Devil har en dröm, en vän, ett bo, en säng tillsammans
+                    <br>HerO Devil delar DNA
+                    <br>Våran mamma var en undulat
+                    <br>HerO Devil räddar da'n, vi har, en halvbra plan tillsammans
+                    <br>
+                    <br>Städa på toan, sätt upp ridå
+                    <br>Nu ska vi hjälpa till
+                    <br>Köpa en hårspray, smak på måfå
+                    <br>Vi slår en fågeldrill
+                    <br>Devil han kan lyfta allt
+                    <br>Håller huv’et kallt
+                    <br>Hero äter palt
+                    <br>
+                    <br>HerO Devil är ett radarpar
+                    <br>HerO Devil de är bäst i stan
+                    <br>HerO Devil har en plan, idé, förslag, intrig tillsammans
+                    <br>Sakna’ bygglov till vårt fågelbo
+                    <br>Kronofogden gjorde oss särbo
+                    <br>HerO Devil flytta hit, och dit, till slut, fick hem hos Fanta
+                    <br>
+                    <br>Fantomen vår kompis, vill stå på scen
+                    <br>Det fixar ju vi två
+                    <br>Vi ska bli hjältar, alla ska se
+                    <br>Det kommer de förstå
+                    <br>Hero han har superdräkt
+                    <br>Ägget det har kläckts
+                    <br>Haft oskyddat sex?
+                    <br>
+                    <br>HerO Devil har ett liv ihop
+                    <br>(Yeah yeah!)
+                    <br>HerO Devil har ett ägg ihop
+                    <br>(Oj oj oj oj oj!)
+                    <br>HerO Devil har ett barn, som är, en gam, han heter Christer
+                    <br>(Fixade vi barnvakt?)
+                    <br>(Näääe)
+                    <br>HerO Devil har en plan ihop
+                    <br>HerO Devil räddar da’n ihop
+                    <br>(Hip hop!)
+                    <br>HerO Devil de är bros, har ing-a hoes, bara varandra
+                    <br>
+                    <br>HerO Devil har en plan, idé, förslag, intrig tillsammans
+                    <br>
+                    <br>HerO Devil har en plan, idé, förslag, intrig tillsammans
+                    <br>
+                    <br>(Vart tog Christer vägen? Han e på duvis)
+                    <br><br><br><br>
+                </div>
+            </details>
+
+            <details class="sb one">
+                <summary style="list-style: none; padding: 5px">4. <b> Krismötet</b></summary>
+                <div class="song">
+                    <b> Krismötet</b>
+                    <br>Melodi: <a href="https://www.youtube.com/watch?v=FQsd-GB1WU0" target="_blank"> Does your mother know </a>
+                    <br>
+                    <br>Herregud, var börjar
+                    <br>vi med li-stan på allt vi ska få klart
+                    <br>Jag har inte tid.
+                    <br>Vi börjar få smått panik
+                    <br>Ridån har hamnat snett
+                    <br>och jag åt schampo som var så äckligt, det smaka ej rätt.
+                    <br>Åhh det här blir inte så lätt
+                    <br>
+                    <br>Vi måste rädda Dramaten
+                    <br>Inget snack om saken
+                    <br>Gu-nilla kan glömma sin dröm
+                    <br>Ingen mening att krisa
+                    <br>nu så ska vi visa
+                    <br>Tantant att vi vet vad vi gör
+                    <br>
+                    <br>Ta det lugnt Lugg, Ta det lugnt Lugg
+                    <br>Vi löser det här
+                    <br>Men hur ska det gå?
+                    <br>Det fixar ni två
+                    <br>Lilla gubben, Lilla gubben
+                    <br>Sätt dig här hos maj
+                    <br>med ett glas chardonnay
+                    <br>Du får lugna daj
+                    <br>
+                    <br>När Tantant, kommer hit
+                    <br>och skriver recension om vår pjäs
+                    <br>måste allting va fint
+                    <br>Men nu känns allting mest skit
+                    <br>Tänk när hon får, se Kennys hår
+                    <br>Ja, det är ganska fult men hörru lite drama är kul
+                    <br>Det tycker ju bara du!!
+                    <br>
+                    <br>Vi måste rädda Dramaten
+                    <br>Inget snack om saken
+                    <br>Gu-nilla kan glömma sin dröm
+                    <br>Ingen mening att krisa
+                    <br>nu så ska vi visa
+                    <br>Tantant att vi vet vad vi gör
+                    <br>Chill Gunilla, lill Gunilla
+                    <br>Hon får inte ta
+                    <br>Vår Dramat från oss
+                    <br>Nej vi säger stopp
+                    <br>Moppa, diska, putsa, damma
+                    <br>Sätta upp ridå
+                    <br>Öva manus med
+                    <br>Hur hinner vi dä?
+                    <br>
+                    <br>Vi måste rädda Dramaten
+                    <br>Fram med preparaten (sniff)
+                    <br>så att jag kan ta det helt kallt.
+                    <br>Jag måste fixa och städa spika upp en bräda
+                    <br>Jag är faktiskt typ bäst på allt
+                    <br>Och jag vill helst stå på scen men
+                    <br>hinner inte det för
+                    <br>Här är allting verkligen kaos
+                    <br>Men sluta lipa och böla
+                    <br>allting kan ju lösas
+                    <br>med en mega-flaska champagne
+                    <br>
+                    <br>Nu så räddar vi Dramaten!
+                    <br>Nu så räddar vi Dramaten!
+                    <br><br><br><br>
+                </div>
+            </details>
+
+            <details class="sb two">
+                <summary style="list-style: none; padding: 5px">5. <b> AKTFINAL: Olyckan</b></summary>
+                <div class="song">
+                    <b> AKTFINAL: Olyckan</b>
+                    <br>Melodi: Cha cha cha
+                    <br>
+                    <br>Flera år har jag väntat på att få höra orden
+                    <br>Jag har smidit mina lömska planer, i mörkret
+                    <br>Gör er beredda på, att ropa, på mamma
+                    <br>Tantanten sa lycka till, och jag är, tillbaka
+                    <br>
+                    <br>Flytta på er töntar för nu ska jag ta över
+                    <br>O-o-o-o-olyckan!
+                    <br>Behöver inte fråga för ni känner mig, jag är
+                    <br>O-o-o-o-olyckan!
+                    <br>Kom å kolla, cykeldäck med ett stort hål i min mössa
+                    <br>O-o-o-o-olyckan!
+                    <br>Ja med rundgång, krasch och bang, jag skapar o-lyckor runt mig
+                    <br>
+                    <br>Jag älskar ju när det smäller, pangar, och gnisslar
+                    <br>Gör nån illa kroppen, blir jag glad, jag visslar
+                    <br>Åh hå hå hå hå
+                    <br>Här trodde jag Dramaten, jobba med, finkultur
+                    <br>Men det jag möttes av av, är bara, fulkultur
+                    <br>Aldrig att Kenny kommer kunna manus
+                    <br>Utantill
+                    <br>Det är kört kört kört, ni får, Lycka till
+                    <br>
+                    <br>Flytta på er töntar för nu ska jag ta över
+                    <br>O-o-o-o-olyckan!
+                    <br>Behöver inte fråga för ni känner mig, jag är
+                    <br>O-o-o-o-olyckan!
+                    <br>Kom å kolla, cykeldäck med ett stort hål i min mössa
+                    <br>O-o-o-o-olyckan!
+                    <br>Jag med rundgång, krasch och bang, jag skapar o-lyckor runt mig (Whoooaaaw)
+                    <br>
+                    <br>Nej, Olyckan är här!
+                    <br>Det är kört kört kört
+                    <br>Måste föreställningen ställas i-i-in?
+                    <br>Det är kört kört kört
+                    <br>Värre kalabalik än någonsi-i-in
+                    <br>
+                    <br>Aj aj aj, min frisyr den är pannkaka!
+                    <br>Vad ska vi göra när Doktor Lugg har flytt och har övergivit oss?
+                    <br>Ha ha ha, ni måste sälja Dramaten till mig
+                    <br>Åh nej! Min fina teater, fina teate-er
+                    <br>
+                    <br>Men nu så är det paaauuus
+                    <br>Vad som händer sen
+                    <br>Det får ni veta när vi ses ige-e-en
+                    <br>Gå och köp fika
+                    <br>Vi har bulle, kaffe och läskebla-a-ask!
+                    <br>
+                    <br>Vi ses i akt två
+                    <br>O-o-o-o-olyckan!
+                    <br>Vi ses i akt två
+                    <br>O-o-o-o-olyckan!
+                    <br>O-o-o-o-olyckan!
+                    <br><br><br><br>
+                </div>
+            </details>
+
+            <details class="sb one">
+                <summary style="list-style: none; padding: 5px">6. <b> KÖR</b></summary>
+                <div class="song">
+                    <b> KÖR</b>
+                    <br>Melodi: <a href="https://www.youtube.com/watch?v=jyLP6XLgEYY" target="_blank"> Do-Re-Mi </a>
+                    <br>
+                    <br><span class="green-highlight">Alla</span>
+                    <br><span class="red-highlight">Grupp 1</span>
+                    <br><span class="orange-highlight">Grupp 2</span>
+                    <br><span class="yellow-highlight">Grupp 3</span>
+                    <br><span class="blue-highlight">Grupp 4</span>
+                    <br><span class="purple-highlight">Grupp 5</span>
+                    <br>
+                    <br><span class="green-highlight">
+                        Ni vet när man står här på scenen
+                        <br>Och känslorna tar över
+                        <br>Och det känns som att orden ej är nog
+                        <br>Då finns endast en lösning
+                    </span>
+                    <br><span class="red-highlight">Sjung en sång</span>
+                    <br><span class="orange-highlight">Sjung e</span><span class="yellow-highlight">n sång</span>
+                    <br><span class="blue-highlight">Sjung e</span><span class="purple-highlight">n sång</span>
+                    <br><span class="green-highlight">Och då förvandlas pjäsen till en</span>
+                    <br><span class="red-highlight">Mu-si-kal</span>
+                    <br><span class="orange-highlight">Mu-s</span><span class="yellow-highlight">i-kal</span>
+                    <br><span class="blue-highlight">Åh vi äls</span><span class="purple-highlight">kar musikal</span>
+                    <br>
+                    <br><span class="green-highlight">
+                        Chess, Ett schackspel i Bangkok
+                        <br>Grease, Pink ladies och T-Birds
+                        <br>Chi-cago ett fängelse
+                        <br>Cats, lille katt med en svans
+                        <br>West side story Maria
+                        <br>Rent, sekunder på ett år
+                        <br>Sound of music do re mi
+                        <br>Fantomen på Opera-a-an
+                    </span>
+                    <br>
+                    <br><i>(Hoppa från 1:13 till 3:40 i låten)</i>
+                    <br><span class="red-highlight">(Che</span><span class="orange-highlight">ss)</span><span class="yellow-highlight"> Ett scha</span><span class="blue-highlight">ckspel i B</span><span class="purple-highlight">angkok</span>
+                    <br><span class="red-highlight">(Gre</span><span class="orange-highlight">ase)</span><span class="yellow-highlight"> Pink lad</span><span class="blue-highlight">ies och T</span><span class="purple-highlight">-Birds</span>
+                    <br><span class="red-highlight">(C</span><span class="orange-highlight">hi)</span><span class="yellow-highlight"> -cago e</span><span class="blue-highlight">tt fän</span><span class="purple-highlight">gelse</span>
+                    <br><span class="red-highlight">(Ca</span><span class="orange-highlight">ts)</span><span class="yellow-highlight"> lille ka</span><span class="blue-highlight">tt med e</span><span class="purple-highlight">n svans</span>
+                    <br><span class="red-highlight">(We</span><span class="orange-highlight">st)</span><span class="yellow-highlight"> side s</span><span class="blue-highlight">tory M</span><span class="purple-highlight">aria</span>
+                    <br><span class="red-highlight">(Re</span><span class="orange-highlight">nt)</span><span class="yellow-highlight"> seku</span><span class="blue-highlight">nder p</span><span class="purple-highlight">å ett år</span>
+                    <br><span class="red-highlight">(So</span><span class="orange-highlight">und)</span><span class="yellow-highlight"> of m</span><span class="blue-highlight">usic d</span><span class="purple-highlight">o re mi</span>
+                    <br><span class="green-highlight">
+                        Fantomen på Operan
+                        <br>
+                        <br>Åh, vi älskar musikaler
+                        <br>Musikaler är så bra
+                    </span>
+                    <br><span class="orange-highlight">Pu-</span><span class="yellow-highlight">
+                        blik-en
+                        <br>Vän
+                    </span><span class="blue-highlight">-tar ju</span>
+                    <br><span class="orange-highlight">Vad </span><span class="yellow-highlight">ska du</span>
+                    <br><span class="blue-highlight">Sä</span><span class="purple-highlight">-ga nu?</span>
+                    <br><span class="orange-highlight">Pu-</span><span class="yellow-highlight">
+                        blik-en
+                        <br>Vän
+                    </span><span class="blue-highlight">-tar ju</span>
+                    <br><span class="orange-highlight">Vad </span><span class="yellow-highlight">ska du</span>
+                    <br><span class="blue-highlight">Sä</span><span class="purple-highlight">-ga nu?</span>
+                    <br>
+                    <br><span class="orange-highlight">Pu-</span><span class="yellow-highlight">blik-en</span>&emsp;&emsp;                   <span class="red-highlight">För</span>
+                    <br><span class="yellow-highlight">Vän</span><span class="blue-highlight">-tar ju</span>&emsp;&emsp;                    <span class="red-highlight">när</span>
+                    <br><span class="orange-highlight">Vad </span><span class="yellow-highlight">ska du</span>&emsp;&emsp;                  <span class="red-highlight">ord-</span>
+                    <br><span class="blue-highlight">Sä</span><span class="purple-highlight">-ga nu?</span>&emsp;&emsp;                   <span class="red-highlight">en</span>
+                    <br><span class="orange-highlight">Pu-</span><span class="yellow-highlight">blik-en</span>&emsp;&emsp;                    <span class="red-highlight">ej</span>
+                    <br><span class="yellow-highlight">Vän</span><span class="blue-highlight">-tar ju</span>&emsp;&emsp;                    <span class="red-highlight">är</span>
+                    <br><span class="orange-highlight">Vad </span><span class="yellow-highlight">ska du</span>&emsp;&emsp;                  <span class="red-highlight">nog</span>
+                    <br><span class="blue-highlight">Sä</span><span class="purple-highlight">-ga nu?</span>
+                    <br><span class="orange-highlight">Pu-</span><span class="yellow-highlight">blik-en</span>&emsp;&emsp;                    <span class="red-highlight">Må-</span>
+                    <br><span class="yellow-highlight">Vän</span><span class="blue-highlight">-tar ju</span>&emsp;&emsp;                    <span class="red-highlight">ste</span>
+                    <br><span class="orange-highlight">Vad </span><span class="yellow-highlight">ska du</span>&emsp;&emsp;                  <span class="red-highlight">du</span>
+                    <br><span class="blue-highlight">Sä</span><span class="purple-highlight">-ga nu?</span>&emsp;&emsp;                   <span class="red-highlight">sjung-</span>
+                    <br><span class="green-highlight">a en sång&emsp;&emsp;                    a en sång</span>
+                    <br>
+                    <br><span class="red-highlight">(Che</span><span class="orange-highlight">ss)</span><span class="yellow-highlight"> Ett scha</span><span class="blue-highlight">ckspel i B</span><span class="purple-highlight">angkok</span>
+                    <br><span class="red-highlight">(Gre</span><span class="orange-highlight">ase)</span><span class="yellow-highlight"> Pink lad</span><span class="blue-highlight">ies och T</span><span class="purple-highlight">-Birds</span>
+                    <br><span class="red-highlight">(C</span><span class="orange-highlight">hi)</span><span class="yellow-highlight"> -cago e</span><span class="blue-highlight">tt fän</span><span class="purple-highlight">gelse</span>
+                    <br><span class="red-highlight">(Ca</span><span class="orange-highlight">ts)</span><span class="yellow-highlight"> lille ka</span><span class="blue-highlight">tt med e</span><span class="purple-highlight">n svans</span>
+                    <br><span class="red-highlight">(We</span><span class="orange-highlight">st)</span><span class="yellow-highlight"> side s</span><span class="blue-highlight">tory M</span><span class="purple-highlight">aria</span>
+                    <br><span class="red-highlight">(Re</span><span class="orange-highlight">nt)</span><span class="yellow-highlight"> seku</span><span class="blue-highlight">nder p</span><span class="purple-highlight">å ett år</span>
+                    <br><span class="red-highlight">(So</span><span class="orange-highlight">und)</span><span class="yellow-highlight"> of m</span><span class="blue-highlight">usic d</span><span class="purple-highlight">o re mi</span>
+                    <br><span class="green-highlight">Fantomen på Oper-</span>
+                    <br>
+                    <br><span class="red-highlight">Å</span><span class="orange-highlight">h</span>&emsp;&emsp;               <span class="yellow-highlight">Fö</span><span class="blue-highlight">r, n</span><span class="purple-highlight">är</span>
+                    <br><span class="red-highlight">V</span><span class="orange-highlight">i</span>&emsp;&emsp;                <span class="yellow-highlight">Or</span><span class="blue-highlight">d</span><span class="purple-highlight">en</span>
+                    <br><span class="red-highlight">Ä</span><span class="orange-highlight">l-</span>&emsp;&emsp;               <span class="yellow-highlight">E</span><span class="blue-highlight">j ä</span><span class="purple-highlight">r</span>
+                    <br><span class="red-highlight">Sk</span><span class="orange-highlight">ar</span>&emsp;&emsp;            <span class="yellow-highlight">N</span><span class="blue-highlight">o</span><span class="purple-highlight">g</span>
+                    <br><span class="red-highlight">M</span><span class="orange-highlight">u-</span>&emsp;&emsp;             <span class="yellow-highlight">M</span><span class="blue-highlight">ås</span><span class="purple-highlight">te</span>
+                    <br><span class="red-highlight">S</span><span class="orange-highlight">i-</span>&emsp;&emsp;               <span class="yellow-highlight">D</span><span class="blue-highlight">u sju</span><span class="purple-highlight">ng-</span>
+                    <br><span class="red-highlight">K</span><span class="orange-highlight">al</span>&emsp;&emsp;              <span class="yellow-highlight">Måste</span> <span class="blue-highlight">du</span> <span class="purple-highlight">sjunga</span>
+                    <br><span class="red-highlight">En s</span><span class="orange-highlight">ång</span>&emsp;&emsp;      <span class="yellow-highlight">E</span><span class="blue-highlight">n så</span><span class="purple-highlight">ng</span> (<span class="yellow-highlight">E</span><span class="blue-highlight">n så</span><span class="purple-highlight">ng</span>)
+                    <br><br><br><br>
+                </div>
+            </details>
+
+            <details class="sb two">
+                <summary style="list-style: none; padding: 5px">7. <b> Stil och klass</b></summary>
+                <div class="song">
+                    <b> Stil och klass</b>
+                    <br>Melodi: Fabulous
+                    <br>
+                    <br>Det är ute med er, och inne med mig
+                    <br>Amatörer försvinn! Dramaten blir min.
+                    <br>En fullsatt lokal, balklänningen på
+                    <br>Ljuset skiner på mig, publiken den
+                    <br>jublar mitt na-amn
+                    <br>(Ursäkta? Tack)
+                    <br>
+                    <br>Jag läser upp mina dikter
+                    <br>Erika, hon sjunger så rent
+                    <br>Tusse, han gör några konster
+                    <br>Men jag är allt vackrast på sce-e-e-en
+                    <br>
+                    <br>För snart är det dags för min show
+                    <br>I’m the star!
+                    <br>
+                    <br>Lite stil och klass, det gör mig så populär
+                    <br>Allting elegant, det är ju det jag begä-är
+                    <br>
+                    <br>Så fort jag står på scenen kommer det att bli succé
+                    <br>För ännu mer Gunilla, det är aldrig fel!
+                    <br>
+                    <br>Jag går på middag med kungen
+                    <br>Oscarsgalan är mitt hem
+                    <br>Jag pryder viktiga omslag
+                    <br>För ingen kan få nog av mi-i-i-ig
+                    <br>
+                    <br>Kan någon ge mig en ros?
+                    <br>Ge mig mer!
+                    <br>
+                    <br>Lite stil och klass, det gör mig så populär
+                    <br>
+                    <br>Allting elegant, det är ju det jag begä-är
+                    <br>
+                    <br>Så fort jag står på scenen kommer det att bli succé
+                    <br>För ännu mer Gunilla, det är aldrig fel!
+                    <br>
+                    <br>Jag är så god, jag är så vis
+                    <br>Jag är så vacker, kan nån ge mig ett pris?
+                    <br>Jag är så trevlig, jag är så bra
+                    <br>Hollywoodfru-arnas ideal
+                    <br>Lyssna på mig nu
+                    <br>Ingen kan slå The Gunilla
+                    <br>Försvinn!
+                    <br>
+                    <br>Lite stil och klass, det gör mig så populär
+                    <br>
+                    <br>Allting elegant, det är ju det jag begä-är
+                    <br>
+                    <br>Så fort jag står på scenen kommer det att bli succé
+                    <br>För ännu mer Gunilla, det är aldrig fel!
+                    <br>
+                    <br>Högst betyg, premiär
+                    <br>Det är slutsålt, för jag är.
+                    <br>Jag är, jag är, jag är, jag är,
+                    <br>Jag är, jag är, jag är stjä-ärnan
+                    <br>
+                    <br>Jag är så snäll, jag är så flott
+                    <br>Jag är så rik och jag bor i ett slott!
+                    <br>Men nu får vi se, hur det kommer gå?
+                    <br>
+                    <br>Kommer Hamleton bli stor succé?
+                    <br>Absolut… inte!
+                    <br><br><br><br>
+                </div>
+            </details>
+
+            <details class="sb one">
+                <summary style="list-style: none; padding: 5px">8. <b> Provokatör</b></summary>
+                <div class="song">
+                    <b> Provokatör</b>
+                    <br>Melodi: Tick tick boom
+                    <br>
+                    <br>Yeah! Yeah! Yeah!
+                    <br>Är ni redo för kaos?
+                    <br>Yeah! Yeah! Yeah!
+                    <br>Jag behöver en paus!
+                    <br>
+                    <br>För nummer ett, det blir fett, utan vett
+                    <br>Det här blir lätt som en plä-ätt
+                    <br>Och nummer två? Ja vadå? Kommer vi, att på Gunilla få slå-å?
+                    <br>
+                    <br>Det här kan inte bli bra
+                    <br>Jag tror jag ändrar min plan
+                    <br>Så kan du inte dra?
+                    <br>Nä! Nä! Nä!
+                    <br>Nu ska vi skapa kaos
+                    <br>
+                    <br>För alltid när jag förstör
+                    <br>Blir jag på så bra humör
+                    <br>Jag är en provokatör
+                    <br>Åh, nej jag tror att jag dör
+                    <br>Det är du, det är vi, och det är
+                    <br>O-bi-do-bi-do-bi-dolyckan!
+                    <br>Ha!
+                    <br>
+                    <br>Oh yeah! Yeah! Yeah!
+                    <br>Vad ska vi hitta på-å?
+                    <br>Yeah! Yeah! Yeah!
+                    <br>Kanske banka nån blå-å?
+                    <br>
+                    <br>Vad ska Teaterchefen, säga om mig
+                    <br>när över gränsen det gå-år?
+                    <br>Jag skulle aldrig mer få tillbringa
+                    <br>en natt
+                    <br>där i hans kassaskå-åp (Calm down!)
+                    <br>
+                    <br>För alltid när vi förstör
+                    <br>Blir vi på så bra humör
+                    <br>Jag är en provokatör
+                    <br>Åh, dina ord oss förför
+                    <br>Det är kört, det är slut, det blir en
+                    <br>O-bi-do-bi-do-bi-dolycka!
+                    <br>
+                    <br>Lyssna!
+                    <br>
+                    <br>Byt ut socker mot salt (Till Gunilla)
+                    <br>Lägga folie på dass (Till Gunilla)
+                    <br>Skrämmas bakom en dörr (Till Gunilla)
+                    <br>Nu så kom-mer hon att få se upp
+                    <br>Oh, yeah! Grilla passa
+                    <br>Dig! Frilla akta
+                    <br>Du kollar höger, vänster, framför, bakom
+                    <br>
+                    <br>Över och under
+                    <br>
+                    <br>För alltid när vi förstör
+                    <br>Blir vi på så bra humör
+                    <br>Kom bli en provokatör
+                    <br>Okej, jag tror att vi kör!
+                    <br>För alltid när vi förstör
+                    <br>Blir vi på så bra humör
+                    <br>En riktig sann sabotör
+                    <br>Finns det ens nåt jag tillför?
+                    <br>Det är du, det är ni
+                    <br>Det är du, det är vi
+                    <br>Det är dags, nu kör vi, för vi är
+                    <br>O-bi-do-bi-do-bi-dolyckan!
+                    <br><br><br><br>
+                </div>
+            </details>
+
+            <details class="sb two">
+                <summary style="list-style: none; padding: 5px">9. <b> En recension</b></summary>
+                <div class="song">
+                    <b> En recension</b>
+                    <br>Melodi: Banankontakt
+                    <br>
+                    <br>Det är en diagnos
+                    <br>Nej, det är en reflex
+                    <br>Nej, det är ditt faderskomplex!
+                    <br>
+                    <br>Det är ett ljussken över scenen
+                    <br>En pjäs som aldrig tycks ta slut
+                    <br>När skådis står och skakar benen
+                    <br>För läget är nu rätt akut
+                    <br>
+                    <br>Åh Hamleton min kära
+                    <br>Jag vill ju va’ dig nära
+                    <br>Du kan ju ej begära
+                    <br>Att jag ditt barn ska bära
+                    <br>Ophelia min kära
+                    <br>Du luktar ingefära
+                    <br>Låt oss va’ litterära
+                    <br>Nu ska jag dig förtära
+                    <br>
+                    <br>En recension, en recension, en recension…
+                    <br>Jag står och skriver…
+                    <br>
+                    <br>Ophelia Washington min kära
+                    <br>Utan dig står jag inte ut
+                    <br>Jaså du flörtar, på min ära!
+                    <br>Nu kommer klostret slå bakut!
+                    <br>
+                    <br>Vad är det här för drama?
+                    <br>De verkar ganska lama
+                    <br>Nu får du sluta gama
+                    <br>Och flytta till Panama
+                    <br>Låt kärleken förlama
+                    <br>Vi kan bli polygama
+                    <br>Det här blir ganska bra, va?
+                    <br>Var är min fina Cava?
+                    <br>
+                    <br>En recension, en recension, en recension…
+                    <br>Jag står och skriver…
+                    <br>
+                    <br>Ophelia, åh Telia, Cello, Othello
+                    <br>Och spöken, och gastar, duvor, och trastar
+                    <br>
+                    <br>Ophelia, åh Telia, Cello, Othello
+                    <br><br><br><br>
+                </div>
+            </details>
+
+            <details class="sb one">
+                <summary style="list-style: none; padding: 5px">10. <b>  TOTALFINAL: Låten om Spexet om Sagan om Föreställningen</b></summary>
+                <div class="song">
+                    <b> TOTALFINAL: Låten om Spexet om Sagan om Föreställningen</b>
+                    <br>Melodi: The Worrying Kind
+                    <br>
+                    <br>Barn, nu ska vi sjunga
+                    <br>Golvet det ska gunga
+                    <br>Gunga till vår goa refräng
+                    <br>För sagan den har
+                    <br>Nått sin grand final
+                    <br>Och det var, en Bartenders Memo-oar
+                    <br>
+                    <br>Fantomen fick skina
+                    <br>Gunilla hon grina
+                    <br>Mina glas är torkade nu
+                    <br>Dramaten lever kvar
+                    <br>Med jubel och fanfar
+                    <br>Det var, en Bartenders Memo-oar
+                    <br>
+                    <br>Så om ni ser mig nånstans
+                    <br>Med en bok i min hand
+                    <br>Och med läsglasögonen på skaft
+                    <br>Gör er då redo på, att en sagostund få
+                    <br>Som kan få dig att vilja byta namn!
+                    <br>Jag är en olycksam grabb (IM THE STAR OF THIS SHOW!)
+                    <br>När vi jobbar här tillsammans blir det härligt flow
+                    <br>Vi ställer till massa bus
+                    <br>Vår framtid är ljus
+                    <br>Vi trivs så bra ihop att vi köper ett radhus
+                    <br>
+                    <br>Spexet om Sagan om
+                    <br>Föreställningen om
+                    <br>Hamleton, det var vad ni såg
+                    <br>Och ni gilla’ väl allt?
+                    <br>Ja det var ganska ballt
+                    <br>Så, snälla kom igen nästa år!
+                    <br>
+                    <br>För det finns Skådis och Dans
+                    <br>Dekor, Syet och Smink
+                    <br>Bandet, PR, och självklart Teknik
+                    <br>Vi har Vieri och ett Sexmästeri
+                    <br>Alla utskott som gör vårt Hallandsspex
+                    <br>Vi har sytt och gjort mat, och planerat en fest
+                    <br>Skrivit manus men vi har nog skrattat allra mest
+                    <br>Vi har haft spexteknik
+                    <br>Vi har lärt oss replik
+                    <br>Vi har en sak att säga, vi älskar vår publik!
+                    <br>
+                    <br>Spexet om Sagan om
+                    <br>Föreställningen om
+                    <br>Hamleton, det var vad ni såg
+                    <br>Och ni gilla’ väl allt?
+                    <br>Ja det var ganska ballt
+                    <br>Så, snälla kom igen nästa år!
+                    <br>
+                    <br>Och ni gilla’ väl allt?
+                    <br>Ja det var ganska ballt
+                    <br>För Hallandsspexet är bäst i test
+                    <br>
+                    <br>Och ni gilla’ väl allt?
+                    <br>Ja det var ganska ballt
+                    <br>Hallandsspexet är bäst i test
+                    <br><br><br><br>
+                </div>
+            </details>
+
+            <button class="sb"
+                    style="background-color:gold;color:white;text-align:left;font-weight:bold;"></button>
+            </div>
+
+        </details>
+
+
+    <div class="m-3">
+        <p class="text-dark fw-bold fs-6">Hittar du något fel eller saknar någon låt? Skriv till oss på <a href="mailto: hallandsspexet@gmail.com" target="_blank">hallandsspexet@gmail.com</a></p>
+        <p class="text-dark fw-bold fs-6">Uppdaterad: 2024-02-08</p>
+    </div>
+
+</div>
+</body>
+</html>
